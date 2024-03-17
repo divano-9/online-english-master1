@@ -1,24 +1,23 @@
 import Navigation from "../components/Navigation";
-import illustration from "../../public/assets/hero-illustration.svg";
 import bot from "../assets/hero-background.svg";
 import bg from "../assets/hero-bg.svg";
+import mob from "../assets/hero-bg-mob.svg";
+import useWindowDimensions from "../utils/useWindowDimensions";
 
 const Hero = () => {
+  const { height, width } = useWindowDimensions();
+  const breakpoint = 992;
   return (
     <section className="hero">
       <Navigation />
-      {/* <div className="row">
-        <div className="col-5 txt">
-          <div>
-            <h1>Master 1</h1>
-            <p>Best Online Teaching School</p>
-          </div>
-        </div>
-        <div className="col-7 img">
-          <img src={illustration} />
-        </div>
-      </div>*/}
-      <img src={bg} className="bg-img" />
+      <div>
+        {width < breakpoint ? (
+          <img src={mob} className="bg-img bg-mob" />
+        ) : (
+          <img src={bg} className="bg-img" />
+        )}
+      </div>
+
       <img src={bot} className="bot-img" />
     </section>
   );
