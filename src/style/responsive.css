@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  body {
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  nav .navbar-nav {
+    display: flex;
+  }
+
+  nav .navbar-nav .nav-link,
+  nav .navbar-nav .dropdown {
+    color: #b3e1ff;
+    padding: 0 2rem !important;
+    border-left: #13143a 1px solid;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+  }
+
+  nav .navbar-nav .dropdown .nav-link {
+    padding: 0 !important;
+    border-bottom: none;
+  }
+
+  nav .navbar-nav .nav-link:hover,
+  nav .navbar-nav .dropdown:hover {
+    color: aliceblue;
+    border-bottom: aliceblue 2px solid;
+  }
+}
