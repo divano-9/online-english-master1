@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 760px) {
   html {
     font-size: 62.5%;
   }
@@ -8,6 +8,11 @@
   .promo .video-container {
     width: 600px;
     height: 350px;
+  }
+
+  .hero .bg-img {
+    height: 85%;
+    width: 100%;
   }
 }
 
