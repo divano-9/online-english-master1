@@ -113,9 +113,13 @@ nav .navbar-nav .dropdown .nav-link:hover {
 }
 
 nav .dropdown-item {
+  padding: 2rem 3rem;
+}
+
+nav .dropdown-item a {
   font-size: 2rem;
   color: #13143a;
-  padding: 2rem 3rem;
+  text-decoration: none;
 }
 
 nav .dropdown-item:hover {
