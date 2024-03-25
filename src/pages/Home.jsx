@@ -1,11 +1,13 @@
 import Hero from "../components/Hero";
-import Video from "../components/Video";
+import Promo from "../components/Promo";
+import Courses from "../components/Courses";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Video />
+      <Promo />
+      <Courses />
     </>
   );
 };

@@ -3,7 +3,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import ScrollToAnchor from "./utils/ScrollToAnchor";
 import Home from "./pages/Home";
-import Layout from "./pages/Layout";
 import About from "./pages/About";
 
 function App() {

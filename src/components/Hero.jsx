@@ -8,7 +8,7 @@ const Hero = () => {
   const { height, width } = useWindowDimensions();
   const breakpoint = 700;
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <Navigation />
       <div>
         {width < breakpoint ? (
