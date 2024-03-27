@@ -49,17 +49,17 @@ const Navigation = () => {
                   About
                 </Link>
                 <NavDropdown title="Courses" id="basic-nav-dropdown">
-                  <NavDropdown.Item>
-                    <Link to={"/#course1"}>Course 1</Link>
+                  <NavDropdown.Item as={Link} to={"/#course1"}>
+                    Course 1
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to={"/#course2"}>Course 2</Link>
+                  <NavDropdown.Item as={Link} to={"/#course2"}>
+                    Course 2
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to={"/#course3"}>Course 3</Link>
+                  <NavDropdown.Item as={Link} to={"/#course3"}>
+                    Course 3
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to={"/#course4"}>Course 4</Link>
+                  <NavDropdown.Item as={Link} to={"/#course4"}>
+                    Course 4
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Link to={"/#contact"} className="nav-link">

@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 50%;
+  font-size: 40%;
 }
 
 body {
@@ -22,6 +22,7 @@ img {
 
 #root {
   min-height: 100vh;
+  position: relative;
 }
 
 .bg {
@@ -51,7 +52,7 @@ hr {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -83,7 +84,7 @@ img {
 }
 
 .navigation .follow {
-  position: fixed;
+  position: absolute;
   top: 0;
   z-index: 100;
   width: 100%;
@@ -114,9 +115,6 @@ nav .navbar-nav .dropdown .nav-link:hover {
 
 nav .dropdown-item {
   padding: 2rem 3rem;
-}
-
-nav .dropdown-item a {
   font-size: 2rem;
   color: #13143a;
   text-decoration: none;
@@ -161,7 +159,7 @@ nav .dropdown-menu[data-bs-popper] {
   margin-top: 3rem;
 }
 
-.bot-img {
+.hero .bot-img {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -227,4 +225,71 @@ nav .dropdown-menu[data-bs-popper] {
 
 .course .row {
   justify-content: space-around;
+}
+
+/*Testimonials*/
+
+.testimonials {
+  position: relative;
+}
+
+.testimonials .top-img {
+  width: 100%;
+}
+
+.testimonials .row {
+  justify-content: center;
+}
+.testimonials .testim-container {
+  height: 80%;
+}
+
+.testim-img {
+  max-width: 100%;
+}
+
+/*Footer*/
+.footer {
+  position: relative;
+  width: 100%;
+}
+
+.footer .social {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: left;
+  margin-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer .social > div {
+  margin-left: 1rem;
+}
+
+.footer .social div:first-of-type {
+  margin-left: 0;
+}
+
+.footer .social .icon {
+  fill: #4cc9f1;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.footer .social .email {
+  display: flex;
+}
+
+.footer .social .email p {
+  margin-bottom: 0;
+  color: #4cc9f1;
+  line-height: 2rem;
+  height: 2.5rem;
+  padding-left: 1rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }
