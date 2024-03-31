@@ -6,6 +6,10 @@ import Nav from "react-bootstrap/Nav";
 import { NavDropdown } from "react-bootstrap";
 import top from "../assets/nav-background.svg";
 import bg from "../assets/site-bg.svg";
+import zaloS from "../assets/photos/zalo-s.jpg";
+import zaloL from "../assets/photos/zalo-ll.jpg";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const Navigation = () => {
   const [show, setShow] = useState(false);
@@ -28,7 +32,6 @@ const Navigation = () => {
 
   return (
     <div className="navigation">
-      <img src={top} className="top-img" />
       <div className="follow">
         {show && <img src={bg} className="bg" />}
         <Navbar expand="lg">
@@ -65,6 +68,12 @@ const Navigation = () => {
                 <Link to={"/#contact"} className="nav-link">
                   Contact
                 </Link>
+
+                <div className="qr">
+                  <Zoom>
+                    <img src={zaloL} className="zalo" />
+                  </Zoom>
+                </div>
               </Nav>
             </Navbar.Collapse>
           </Container>

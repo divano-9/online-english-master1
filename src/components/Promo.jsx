@@ -1,4 +1,5 @@
 import promoBg from "../assets/site-bg.svg";
+
 const Promo = () => {
   return (
     <section className="promo" id="about">

@@ -1,7 +1,8 @@
 import Navigation from "../components/Navigation";
+import top from "../assets/nav-background.svg";
 import bot from "../assets/hero-background2.svg";
-import bg from "../assets/hero-bg.svg";
-import mob from "../assets/hero-bg-mob.svg";
+import bg from "../assets/hero-illustration2.svg";
+import mob from "../assets/hero-mob-illustration2.svg";
 import useWindowDimensions from "../utils/useWindowDimensions";
 
 const Hero = () => {
@@ -9,15 +10,21 @@ const Hero = () => {
   const breakpoint = 700;
   return (
     <section className="hero" id="home">
-      <Navigation />
       <div>
+        <img src={top} className="top-img" />
+        <Navigation />
+      </div>
+
+      <div className="hero-container container">
         {width < breakpoint ? (
           <img src={mob} className="bg-img bg-mob" />
         ) : (
           <img src={bg} className="bg-img" />
         )}
       </div>
-      <img src={bot} className="bot-img" />
+      <div>
+        <img src={bot} className="bot-img" />
+      </div>
     </section>
   );
 };

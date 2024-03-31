@@ -10,11 +10,6 @@
     height: 350px;
   }
 
-  .hero .bg-img {
-    height: 85%;
-    width: 100%;
-  }
-
   .footer .social > div {
     margin-left: 3rem;
     padding-bottom: 2rem;
@@ -46,6 +41,12 @@
     border-bottom: 2px solid transparent;
   }
 
+  nav .navbar-nav .qr {
+    border-left: #13143a 1px solid;
+    padding-left: 2rem !important;
+    box-sizing: border-box;
+  }
+
   nav .navbar-nav .dropdown .nav-link {
     padding: 0 !important;
     border-bottom: none;
@@ -55,6 +56,10 @@
   nav .navbar-nav .dropdown:hover {
     color: aliceblue;
     border-bottom: aliceblue 2px solid;
+  }
+
+  .hero .bg-img {
+    height: 50%;
   }
 
   .promo .video-container {
