@@ -152,6 +152,15 @@ nav .dropdown-menu[data-bs-popper] {
   width: auto;
 }
 
+.navigation .language {
+  margin-left: 2rem;
+}
+
+.navigation .language span {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
 /*Hero*/
 
 .hero {
@@ -238,6 +247,39 @@ nav .dropdown-menu[data-bs-popper] {
 
 .course .row {
   justify-content: space-around;
+}
+
+/*Choose*/
+
+.choose {
+  position: relative;
+  color: aliceblue;
+}
+
+.choose .title {
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.choose .title h2 {
+  margin-top: 0;
+}
+
+.choose .choose-txt p:last-of-type {
+  margin-bottom: 0;
+}
+
+.choose .choose-list div {
+  display: flex;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+.choose .choose-icon {
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  margin: 0 2rem;
 }
 
 /*Testimonials*/

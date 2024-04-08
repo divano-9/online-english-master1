@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
@@ -6,12 +6,15 @@ import Nav from "react-bootstrap/Nav";
 import { NavDropdown } from "react-bootstrap";
 import top from "../assets/nav-background.svg";
 import bg from "../assets/site-bg.svg";
-import zaloS from "../assets/photos/zalo-s.jpg";
 import zaloL from "../assets/photos/zalo-ll.jpg";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
+import { Context } from "../states/GlobalContext";
 
 const Navigation = () => {
+  const { setIsEnglish } = useContext(Context);
+
   const [show, setShow] = useState(false);
 
   const controlNavbar = () => {
@@ -32,8 +35,8 @@ const Navigation = () => {
 
   return (
     <div className="navigation">
-      <div className="follow">
-        {show && <img src={bg} className="bg" />}
+      <div className={show ? "follow fix" : "follow"}>
+        <img src={bg} className="bg" />
         <Navbar expand="lg">
           <Container>
             <Navbar.Brand>
@@ -73,6 +76,22 @@ const Navigation = () => {
                   <Zoom>
                     <img src={zaloL} className="zalo" />
                   </Zoom>
+                </div>
+                <div className="language">
+                  <span
+                    className="fi fi-gb "
+                    onClick={() => {
+                      console.log("english");
+                      setIsEnglish(true);
+                    }}
+                  ></span>
+                  <span
+                    className="fi fi-vn "
+                    onClick={() => {
+                      console.log("viet");
+                      setIsEnglish(false);
+                    }}
+                  ></span>
                 </div>
               </Nav>
             </Navbar.Collapse>

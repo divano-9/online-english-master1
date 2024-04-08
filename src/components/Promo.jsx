@@ -1,18 +1,18 @@
+import { useContext } from "react";
+import { Context } from "../states/GlobalContext";
 import promoBg from "../assets/site-bg.svg";
+import PromoEng from "./mini-components/PromoEng";
+import PromoViet from "./mini-components/PromoViet";
 
 const Promo = () => {
+  const { isEnglish } = useContext(Context);
+
   return (
     <section className="promo" id="about">
       <img className="bg" src={promoBg} />
-      {/*  <video
-        width="40%"
-        height="auto"
-        src=""
-        controls
-      ></video> */}
       <div className="promo-container container">
         <div className="title">
-          <h2>Promo Video</h2>
+          {isEnglish ? <h2>Promo Video</h2> : <h2>Promo Video</h2>}
           <hr />
         </div>
 
@@ -28,28 +28,7 @@ const Promo = () => {
             allowfullscreen
           ></iframe>
         </div>
-
-        {/* <div className="promo-txt">
-          <p>Overcome fear of speaking English!</p>
-          <p>Gain confidence!</p>
-          <p>
-            Learn <u>what</u> <strong>YOU</strong> want!
-          </p>
-          <p>
-            Learn <u>when</u> <strong>YOU</strong> want!
-          </p>
-          <p>Stop wasting your time on group classes!</p>
-          <p>Stop wasting your time in traffic! </p>
-          <p>
-            Learn <strong>FROM HOME!</strong>
-          </p>
-          <p>
-            Learn with <strong>foreign teachers!</strong>
-          </p>
-          <p>
-            Learn with <strong>MASTER 1!</strong>
-          </p>
-        </div> */}
+        {isEnglish ? <PromoEng /> : <PromoViet />}
       </div>
     </section>
   );
