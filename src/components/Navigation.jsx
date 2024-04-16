@@ -13,7 +13,7 @@ import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { Context } from "../states/GlobalContext";
 
 const Navigation = () => {
-  const { setIsEnglish } = useContext(Context);
+  const { setIsEnglish, languages } = useContext(Context);
 
   const [show, setShow] = useState(false);
 
@@ -32,6 +32,8 @@ const Navigation = () => {
   useEffect(() => {
     window.addEventListener("scroll", controlNavbar);
   }, []);
+
+  console.log("languages: ", languages);
 
   return (
     <div className="navigation">

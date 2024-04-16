@@ -219,6 +219,7 @@ nav .dropdown-menu[data-bs-popper] {
   font-size: 2rem;
   color: aliceblue;
   margin-top: 4rem;
+  padding: 0 2rem;
 }
 
 .promo .promo-txt p {
@@ -263,6 +264,11 @@ nav .dropdown-menu[data-bs-popper] {
 
 .choose .title h2 {
   margin-top: 0;
+}
+
+.choose .choose-txt,
+.choose .choose-list {
+  padding: 0 2rem;
 }
 
 .choose .choose-txt p:last-of-type {
