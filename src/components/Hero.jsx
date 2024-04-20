@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <section className="hero" id="home">
       <div>
-        <img src={top} className="top-img" />
+        <img src={top} className="top-img nav-top" />
         <Navigation />
       </div>
 

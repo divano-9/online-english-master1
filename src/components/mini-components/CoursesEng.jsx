@@ -16,7 +16,7 @@ const CoursesEng = () => {
           return (
             <div className="course" key={id} id={`course${id}`}>
               <div className="row">
-                <div className="col-10 col-md-5">
+                <div className="col-9 col-md-5 col-lg-4">
                   <img alt="img" src={img} />
                 </div>
                 <div className="col-10 col-md-5">

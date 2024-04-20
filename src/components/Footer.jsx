@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <div className="container">
-        <div className="social">
+        <div className="social" id="contact">
           <div className="facebook">
             <a href="https://www.facebook.com/profile.php?id=61554300797430">
               <FaFacebook className="fb icon" />

@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect, useContext, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
@@ -16,17 +16,16 @@ const Navigation = () => {
   const { setIsEnglish, languages } = useContext(Context);
 
   const [show, setShow] = useState(false);
+  const hamburgerBtn = useRef(null);
 
   const controlNavbar = () => {
-    if (window.scrollY > 200) {
+    if (window.scrollY > 300) {
       // if scroll down show the navbar
       setShow(true);
     } else {
       // if scroll up hide the navbar
       setShow(false);
     }
-
-    // remember current page location to use in the next move
   };
 
   useEffect(() => {
@@ -38,7 +37,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <div className={show ? "follow fix" : "follow"}>
-        <img src={bg} className="bg" />
+        {show && <img src={bg} className={"bg nav-bg"} />}
         <Navbar expand="lg">
           <Container>
             <Navbar.Brand>
@@ -56,20 +55,12 @@ const Navigation = () => {
                 <Link to={"/#about"} className="nav-link">
                   About
                 </Link>
-                <NavDropdown title="Courses" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to={"/#course1"}>
-                    Course 1
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to={"/#course2"}>
-                    Course 2
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to={"/#course3"}>
-                    Course 3
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to={"/#course4"}>
-                    Course 4
-                  </NavDropdown.Item>
-                </NavDropdown>
+                <Link to={"/#courses"} className="nav-link">
+                  Courses
+                </Link>
+                <Link to={"/#prices"} className="nav-link">
+                  Prices
+                </Link>
                 <Link to={"/#contact"} className="nav-link">
                   Contact
                 </Link>

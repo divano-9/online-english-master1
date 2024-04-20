@@ -73,6 +73,29 @@ img {
   -webkit-touch-callout: all;
 }
 
+.contact-btn {
+  width: 160px;
+  background-color: #4cc9f1;
+  border: none;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin: 5rem 0;
+}
+
+.contact-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #7bd1ee;
+}
+
+.fix {
+  position: fixed !important;
+}
+
 /*Navigation*/
 
 .navigation {
@@ -82,10 +105,8 @@ img {
   width: 100%;
 }
 
-.navigation .top-img {
-  position: absolute;
+.nav-top {
   min-height: 60px;
-  top: 0;
 }
 
 .navigation .follow {
@@ -139,10 +160,6 @@ nav .dropdown-menu[data-bs-popper] {
   border-color: #4cc9f1;
 }
 
-.navigation .follow {
-  opacity: 0.8;
-}
-
 .navigation:hover .follow {
   opacity: 1;
 }
@@ -159,6 +176,33 @@ nav .dropdown-menu[data-bs-popper] {
 .navigation .language span {
   margin-left: 1rem;
   cursor: pointer;
+}
+
+.navbar-collapse {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar:has(#basic-navbar-nav.show) {
+  background-color: #13143a;
+}
+
+.nav-bg {
+  opacity: 0.8;
+}
+
+.follow:hover .nav-bg {
+  opacity: 1;
+}
+
+.navbar-toggler {
+  font-size: 2.5rem;
+  border-width: 2px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 /*Hero*/
@@ -231,6 +275,10 @@ nav .dropdown-menu[data-bs-popper] {
 .courses {
   position: relative;
   color: aliceblue;
+}
+
+.courses .container {
+  text-align: center;
 }
 
 .courses .title h2 {
@@ -309,6 +357,9 @@ nav .dropdown-menu[data-bs-popper] {
   max-width: 100%;
 }
 
+.bot-img {
+  min-height: 60px;
+}
 /*Footer*/
 .footer {
   position: relative;
@@ -336,6 +387,14 @@ nav .dropdown-menu[data-bs-popper] {
   fill: #4cc9f1;
   width: 2.5rem;
   height: 2.5rem;
+}
+
+.footer .social .icon:hover {
+  fill: #7bd1ee;
+}
+
+.footer .social .icon:hover + p {
+  color: #7bd1ee;
 }
 
 .footer .social .email {
