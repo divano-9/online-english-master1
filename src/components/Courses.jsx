@@ -13,7 +13,7 @@ const Courses = () => {
       <div className="container">
         {isEnglish ? <CoursesEng /> : <CoursesViet />}
         <button className="contact-btn">
-          <Link to="/#contact">Contac Us</Link>
+          <Link to="/#contact">Sign Up</Link>
         </button>
       </div>
     </section>
