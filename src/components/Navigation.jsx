@@ -36,8 +36,8 @@ const Navigation = () => {
 
   return (
     <div className="navigation">
-      <div className={show ? "follow fix" : "follow"}>
-        {show && <img src={bg} className={"bg nav-bg"} />}
+      <div className={show ? "follow fix purple-bg" : "follow"}>
+        {/* {show && <img src={bg} className={"bg nav-bg"} />} */}
         <Navbar expand="lg">
           <Container>
             <Navbar.Brand>
@@ -58,8 +58,8 @@ const Navigation = () => {
                 <Link to={"/#courses"} className="nav-link">
                   Courses
                 </Link>
-                <Link to={"/#prices"} className="nav-link">
-                  Prices
+                <Link to={"/#pricing"} className="nav-link">
+                  Pricing
                 </Link>
                 <Link to={"/#contact"} className="nav-link">
                   Contact

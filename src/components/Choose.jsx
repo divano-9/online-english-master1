@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import chooseBg from "../assets/site-bg.svg";
 import data from "../static-data/data.js";
 import { FaCheck } from "react-icons/fa6";
@@ -9,8 +10,8 @@ import ChooseViet from "./mini-components/ChooseViet.jsx";
 const Choose = () => {
   const { isEnglish } = useContext(Context);
   return (
-    <section className="choose">
-      <img className="bg" src={chooseBg} />
+    <section className="choose purple-bg">
+      {/* <img className="bg" src={chooseBg} /> */}
       <div className="container">
         <div className="title">
           {isEnglish ? (
@@ -45,6 +46,11 @@ const Choose = () => {
           </div>
         )}
         {isEnglish ? <ChooseEng /> : <ChooseViet />}
+        <div className="btn-container">
+          <button className="contact-btn">
+            <Link to="/#contact">Sign Up</Link>
+          </button>
+        </div>
       </div>
     </section>
   );

@@ -38,7 +38,7 @@ img {
 }
 
 hr {
-  color: white;
+  color: #fefffe;
   opacity: 0.2;
   border-width: 2px;
   margin-top: 3rem;
@@ -46,7 +46,7 @@ hr {
 
 .title h2 {
   font-size: 4rem;
-  color: aliceblue;
+  color: #fefffe;
   text-align: center;
   margin-top: 5rem;
 }
@@ -78,13 +78,14 @@ img {
   background-color: #4cc9f1;
   border: none;
   padding: 1rem;
+  padding-bottom: 1.2rem;
   font-size: 2rem;
   border-radius: 10px;
   margin: 5rem 0;
 }
 
 .contact-btn a {
-  color: white;
+  color: #fefffe;
   text-decoration: none;
 }
 
@@ -94,6 +95,14 @@ img {
 
 .fix {
   position: fixed !important;
+}
+
+.purple-bg {
+  background-color: #71519f;
+}
+
+.white-bg {
+  background-color: #fefffe;
 }
 
 /*Navigation*/
@@ -185,15 +194,11 @@ nav .dropdown-menu[data-bs-popper] {
 }
 
 .navbar:has(#basic-navbar-nav.show) {
-  background-color: #13143a;
+  background-color: #71519f;
 }
 
-.nav-bg {
+.follow {
   opacity: 0.8;
-}
-
-.follow:hover .nav-bg {
-  opacity: 1;
 }
 
 .navbar-toggler {
@@ -261,7 +266,7 @@ nav .dropdown-menu[data-bs-popper] {
 
 .promo .promo-txt {
   font-size: 2rem;
-  color: aliceblue;
+  color: #fefffe;
   margin-top: 4rem;
   padding: 0 2rem;
 }
@@ -274,7 +279,7 @@ nav .dropdown-menu[data-bs-popper] {
 
 .courses {
   position: relative;
-  color: aliceblue;
+  color: #fefffe;
 }
 
 .courses .container {
@@ -290,6 +295,10 @@ nav .dropdown-menu[data-bs-popper] {
   scroll-margin-top: 30px;
 }
 
+.course img {
+  margin-bottom: 2rem;
+}
+
 .course h3 {
   margin-bottom: 2rem;
 }
@@ -302,7 +311,8 @@ nav .dropdown-menu[data-bs-popper] {
 
 .choose {
   position: relative;
-  color: aliceblue;
+  color: #fefffe;
+  padding-bottom: 4rem;
 }
 
 .choose .title {
@@ -334,6 +344,15 @@ nav .dropdown-menu[data-bs-popper] {
   height: 2rem;
   line-height: 2rem;
   margin: 0 2rem;
+}
+
+.choose .btn-container {
+  text-align: center;
+}
+
+.choose .contact-btn {
+  margin-top: 6rem;
+  margin-bottom: 0;
 }
 
 /*Testimonials*/
@@ -412,4 +431,19 @@ nav .dropdown-menu[data-bs-popper] {
 .footer {
   position: absolute;
   bottom: 0;
+}
+
+/*Pricing section*/
+
+.pricing {
+  position: relative;
+}
+
+.pricing .price {
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.pricing .price:last-of-type {
+  margin-bottom: 2rem;
 }

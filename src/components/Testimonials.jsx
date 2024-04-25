@@ -4,7 +4,7 @@ import bot from "../assets/hero-background2.svg";
 
 const Testimonials = () => {
   return (
-    <section className="testimonials">
+    <section className="testimonials white-bg">
       <img alt="topImg" src={top} className="top-img" />
       <div className="container">
         <div className="row">

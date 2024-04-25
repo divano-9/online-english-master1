@@ -15,7 +15,7 @@ const Hero = () => {
   const { height, width } = useWindowDimensions();
   const breakpoint = 700;
   return (
-    <section className="hero" id="home">
+    <section className="hero white-bg" id="home">
       <div>
         <img src={top} className="top-img nav-top" />
         <Navigation />

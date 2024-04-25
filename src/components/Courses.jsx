@@ -8,8 +8,8 @@ import { Context } from "../states/GlobalContext";
 const Courses = () => {
   const { isEnglish } = useContext(Context);
   return (
-    <section className="courses" id="courses">
-      <img src={bg} className="bg" />
+    <section className="courses purple-bg" id="courses">
+      {/* <img src={bg} className="bg" /> */}
       <div className="container">
         {isEnglish ? <CoursesEng /> : <CoursesViet />}
         <button className="contact-btn">

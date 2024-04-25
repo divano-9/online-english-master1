@@ -8,8 +8,8 @@ const Promo = () => {
   const { isEnglish } = useContext(Context);
 
   return (
-    <section className="promo" id="about">
-      <img className="bg" src={promoBg} />
+    <section className="promo purple-bg" id="about">
+      {/* <img className="bg" src={promoBg} /> */}
       <div className="promo-container container">
         <div className="title">
           {isEnglish ? <h2>Promo Video</h2> : <h2>Promo Video</h2>}
