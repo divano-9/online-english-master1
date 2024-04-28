@@ -3,6 +3,15 @@
     margin-left: 3rem;
     padding-bottom: 2rem;
   }
+
+  .footer .social .email p,
+  .footer .social .whatsapp p {
+    font-size: 2rem;
+  }
+
+  .footer .social div div:first-of-type {
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 760px) {
@@ -24,7 +33,17 @@
 
   .footer .social > div {
     margin-left: 3rem;
-    padding-bottom: 2rem;
+  }
+
+  .footer .social .icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .footer .social .email p,
+  .footer .social .whatsapp p {
+    line-height: 2.5rem;
+    height: 3rem;
   }
 
   .bot-img {
@@ -35,6 +54,10 @@
 @media (min-width: 992px) {
   html {
     font-size: 55%;
+  }
+
+  .navigation nav {
+    font-size: 2rem;
   }
 
   .navigation .follow {
@@ -51,13 +74,12 @@
     min-height: none;
   }
 
-  nav .navbar-nav {
+  .navigation nav .navbar-nav {
     display: flex;
+    padding: 0 2rem;
   }
 
-  nav .navbar-nav .nav-link,
-  nav .navbar-nav .dropdown {
-    color: #b3e1ff;
+  nav .navbar-nav .nav-link {
     padding: 0 2rem !important;
     border-left: #13143a 1px solid;
     box-sizing: border-box;
@@ -68,17 +90,27 @@
     border-left: #13143a 1px solid;
     padding-left: 2rem !important;
     box-sizing: border-box;
+    padding: 0;
   }
 
-  nav .navbar-nav .dropdown .nav-link {
-    padding: 0 !important;
-    border-bottom: none;
+  nav .navbar-nav .nav-link:hover {
+    color: #fefffe;
+    background-color: #71519f;
+    border-bottom: #fefffe 2px solid;
   }
 
-  nav .navbar-nav .nav-link:hover,
-  nav .navbar-nav .dropdown:hover {
-    color: aliceblue;
-    border-bottom: aliceblue 2px solid;
+  .navigation .language {
+    margin-left: 2rem;
+    text-align: center;
+  }
+
+  .navigation .language span {
+    font-size: 2rem;
+  }
+
+  .navigation .zalo {
+    height: 3rem;
+    width: auto;
   }
 
   .hero .bg-img {
@@ -91,13 +123,18 @@
   }
 
   .footer .social .icon {
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
-  .footer .social .email p {
-    line-height: 2.5rem;
-    height: 3rem;
+  .footer .social .email p,
+  .footer .social .whatsapp p {
+    line-height: 3rem;
+    height: 3.5rem;
+  }
+
+  .bot-img {
+    min-height: 60px;
   }
 }
 
@@ -106,8 +143,7 @@
     font-size: 62.5%;
   }
   .footer .social {
-    justify-content: center;
-    margin-left: 0;
+    margin-left: 5rem;
   }
 
   .footer .social .icon {
@@ -115,7 +151,8 @@
     height: 4rem;
   }
 
-  .footer .social .email p {
+  .footer .social .email p,
+  .footer .social .whatsapp p {
     line-height: 4rem;
     height: 4rem;
   }
@@ -127,7 +164,8 @@
     height: 5rem;
   }
 
-  .footer .social .email p {
+  .footer .social .email p,
+  .footer .social .whatsapp p {
     line-height: 5rem;
     height: 5rem;
   }

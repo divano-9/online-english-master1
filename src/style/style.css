@@ -126,65 +126,49 @@ img {
 }
 
 nav {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 1.5rem 0 !important;
 }
 
 nav .navbar-nav {
   display: inline-block;
-  padding: 0 2rem;
 }
 
 nav .navbar-nav .nav-link,
 nav .navbar-nav .dropdown {
-  color: #4cc9f1;
+  color: #c7b8ea;
 }
 
 nav .navbar-nav .nav-link:first-of-type {
   border-left: none;
 }
 
-nav .navbar-nav .dropdown .nav-link:hover {
-  border-bottom: none !important;
-}
-
-nav .dropdown-item {
-  padding: 2rem 3rem;
-  font-size: 2rem;
-  color: #13143a;
-  text-decoration: none;
-}
-
-nav .dropdown-item:hover {
-  background-color: #b3e1ff;
-}
-
-nav .dropdown-menu[data-bs-popper] {
-  right: 0;
-  top: 100%;
-  left: auto;
-  padding: 0;
-  margin-top: 0.5rem;
-  text-align: center;
-  border-color: #4cc9f1;
-}
-
 .navigation:hover .follow {
   opacity: 1;
 }
 
+.navigation .qr {
+  text-align: center;
+  padding: 2rem 0;
+}
+
 .navigation .zalo {
-  height: 3rem;
+  height: 6rem;
   width: auto;
 }
 
 .navigation .language {
-  margin-left: 2rem;
+  text-align: center;
 }
 
 .navigation .language span {
   margin-left: 1rem;
   cursor: pointer;
+  font-size: 4rem;
+}
+
+.navigation .language span:first-of-type {
+  margin-left: 0;
 }
 
 .navbar-collapse {
@@ -198,7 +182,7 @@ nav .dropdown-menu[data-bs-popper] {
 }
 
 .follow {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .navbar-toggler {
@@ -208,6 +192,20 @@ nav .dropdown-menu[data-bs-popper] {
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navigation .navbar-nav {
+  display: block;
+}
+
+.navigation nav a {
+  display: block;
+  text-align: center;
+}
+
+.navigation nav a:hover {
+  background-color: #c7b8ea;
+  color: #71519f;
 }
 
 /*Hero*/
@@ -237,6 +235,7 @@ nav .dropdown-menu[data-bs-popper] {
 }
 
 /*Promo*/
+
 .promo {
   position: relative;
   padding-bottom: 5rem;
@@ -377,8 +376,9 @@ nav .dropdown-menu[data-bs-popper] {
 }
 
 .bot-img {
-  min-height: 60px;
+  min-height: 70px;
 }
+
 /*Footer*/
 .footer {
   position: relative;
@@ -416,16 +416,23 @@ nav .dropdown-menu[data-bs-popper] {
   color: #7bd1ee;
 }
 
-.footer .social .email {
+.footer .social .email,
+.footer .social .whatsapp {
   display: flex;
 }
 
-.footer .social .email p {
+.footer .social .email p,
+.footer .social .whatsapp p {
   margin-bottom: 0;
   color: #4cc9f1;
   line-height: 2rem;
   height: 2.5rem;
   padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.footer .social div div:first-of-type {
+  margin-bottom: 0.3rem;
 }
 
 .footer {
