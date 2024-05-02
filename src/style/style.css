@@ -1,3 +1,6 @@
+/*FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 /*GLOBAL*/
 
 * {
@@ -45,22 +48,25 @@ hr {
 }
 
 .title h2 {
-  font-size: 4rem;
   color: #fefffe;
   text-align: center;
   margin-top: 5rem;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 5rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -71,6 +77,16 @@ img {
 .zalo {
   pointer-events: all;
   -webkit-touch-callout: all;
+}
+
+.qr {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.zalo {
+  height: 6rem;
+  width: auto;
 }
 
 .contact-btn {
@@ -145,16 +161,6 @@ nav .navbar-nav .nav-link:first-of-type {
 
 .navigation:hover .follow {
   opacity: 1;
-}
-
-.navigation .qr {
-  text-align: center;
-  padding: 2rem 0;
-}
-
-.navigation .zalo {
-  height: 6rem;
-  width: auto;
 }
 
 .navigation .language {
@@ -431,13 +437,31 @@ nav .navbar-nav .nav-link:first-of-type {
   font-size: 1.5rem;
 }
 
-.footer .social div div:first-of-type {
+.footer .social-media div div:first-of-type,
+.footer .email-and-number div div:first-of-type {
   margin-bottom: 0.3rem;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
+}
+
+.footer .qr {
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.footer .qr div {
+  margin-bottom: 0;
+}
+
+.footer .zalo {
+  height: 3.5rem;
+  width: auto;
 }
 
 /*Pricing section*/

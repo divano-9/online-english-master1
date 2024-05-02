@@ -1,7 +1,11 @@
 @media (min-width: 500px) {
   .footer .social {
     margin-left: 3rem;
-    padding-bottom: 2rem;
+  }
+
+  .footer .zalo {
+    height: 4rem;
+    width: auto;
   }
 
   .footer .social .email p,
@@ -31,6 +35,10 @@
     height: 350px;
   }
 
+  .footer .social {
+    padding-bottom: 0.5rem;
+  }
+
   .footer .social > div {
     margin-left: 3rem;
   }
@@ -48,6 +56,10 @@
 
   .bot-img {
     min-height: 50px;
+  }
+
+  .footer .qr {
+    padding: 1rem 0;
   }
 }
 
@@ -136,6 +148,11 @@
   .bot-img {
     min-height: 60px;
   }
+
+  .zalo {
+    height: 6rem;
+    width: auto;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -144,6 +161,7 @@
   }
   .footer .social {
     margin-left: 5rem;
+    margin-bottom: 2rem;
   }
 
   .footer .social .icon {
