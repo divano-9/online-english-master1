@@ -30,14 +30,15 @@ const Navigation = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", controlNavbar);
+    console.log("languages: ", languages);
+    if (languages[0] == "vi") {
+      setIsEnglish(false);
+    }
   }, []);
-
-  console.log("languages: ", languages);
 
   return (
     <div className="navigation">
       <div className={show ? "follow fix purple-bg" : "follow"}>
-        {/* {show && <img src={bg} className={"bg nav-bg"} />} */}
         <Navbar expand="lg">
           <Container>
             <Navbar.Brand>

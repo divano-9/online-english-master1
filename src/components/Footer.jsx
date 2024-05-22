@@ -8,7 +8,7 @@ import "react-medium-image-zoom/dist/styles.css";
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <section className="footer purple-bg">
       <div className="container">
         <div className="social" id="contact">
           <div className="social-media">
@@ -38,7 +38,6 @@ const Footer = () => {
               <img src={zaloL} className="zalo" />
             </Zoom>
           </div>
-          <div></div>
         </div>
       </div>
     </section>

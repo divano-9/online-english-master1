@@ -2,20 +2,6 @@
   .footer .social {
     margin-left: 3rem;
   }
-
-  .footer .zalo {
-    height: 4rem;
-    width: auto;
-  }
-
-  .footer .social .email p,
-  .footer .social .whatsapp p {
-    font-size: 2rem;
-  }
-
-  .footer .social div div:first-of-type {
-    margin-bottom: 1rem;
-  }
 }
 
 @media (min-width: 760px) {
@@ -37,21 +23,12 @@
 
   .footer .social {
     padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
   }
 
   .footer .social > div {
     margin-left: 3rem;
-  }
-
-  .footer .social .icon {
-    width: 3rem;
-    height: 3rem;
-  }
-
-  .footer .social .email p,
-  .footer .social .whatsapp p {
-    line-height: 2.5rem;
-    height: 3rem;
   }
 
   .bot-img {
@@ -161,7 +138,7 @@
   }
   .footer .social {
     margin-left: 5rem;
-    margin-bottom: 2rem;
+    padding-bottom: 5rem;
   }
 
   .footer .social .icon {

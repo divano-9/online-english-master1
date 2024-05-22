@@ -14,6 +14,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #71519f;
 }
 img {
   width: 100%;
@@ -90,19 +91,20 @@ img {
 }
 
 .contact-btn {
-  width: 160px;
   background-color: #4cc9f1;
   border: none;
-  padding: 1rem;
-  padding-bottom: 1.2rem;
-  font-size: 2rem;
   border-radius: 10px;
   margin: 5rem 0;
 }
 
 .contact-btn a {
+  font-size: 2rem;
   color: #fefffe;
   text-decoration: none;
+  padding: 1rem;
+  padding-bottom: 1.2rem;
+  display: inline-block;
+  width: 160px;
 }
 
 .contact-btn:hover {
@@ -410,8 +412,8 @@ nav .navbar-nav .nav-link:first-of-type {
 
 .footer .social .icon {
   fill: #4cc9f1;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .footer .social .icon:hover {
@@ -431,20 +433,15 @@ nav .navbar-nav .nav-link:first-of-type {
 .footer .social .whatsapp p {
   margin-bottom: 0;
   color: #4cc9f1;
-  line-height: 2rem;
-  height: 2.5rem;
+  line-height: 4rem;
+  height: 3.5rem;
   padding-left: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
-.footer .social-media div div:first-of-type,
-.footer .email-and-number div div:first-of-type {
-  margin-bottom: 0.3rem;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
+.footer .social-media div:first-of-type,
+.footer .email-and-number div:first-of-type {
+  margin-bottom: 1rem;
 }
 
 .footer .qr {
@@ -452,7 +449,8 @@ nav .navbar-nav .nav-link:first-of-type {
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
+  margin-left: 2rem !important;
 }
 
 .footer .qr div {
@@ -460,7 +458,7 @@ nav .navbar-nav .nav-link:first-of-type {
 }
 
 .footer .zalo {
-  height: 3.5rem;
+  height: 5rem;
   width: auto;
 }
 
