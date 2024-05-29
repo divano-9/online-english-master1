@@ -16,18 +16,33 @@ const Promo = () => {
           <hr />
         </div>
 
-        <div className="video-container shadows" id="shadow">
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/OApKNxd5oz4?si=StbN1BQ_PPAi83Va?wmode=opaque"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
+        {isEnglish ? (
+          <div className="video-container shadows eng" id="shadow">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/xoSfZqBXM7s?si=ob6S1p_5dVAOLHGg?wmode=opaque"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        ) : (
+          <div className="video-container shadows viet" id="shadow">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/iTHje6amhCo?si=agj7uFUTyX6C3EBF?wmode=opaque"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        )}
         {isEnglish ? <PromoEng /> : <PromoViet />}
       </div>
     </section>

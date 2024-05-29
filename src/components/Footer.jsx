@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="email-and-number">
             <div className="email">
               <MdEmail className="icon" />
-              <p>master1.oec@gmail.com</p>
+              <p>info@master1oec.com</p>
             </div>
             <div className="whatsapp">
               <FaWhatsappSquare className="icon" />
