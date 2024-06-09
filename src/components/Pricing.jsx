@@ -14,11 +14,11 @@ const Pricing = () => {
       <div className="container">
         {isEnglish ? (
           <div className="price-eng">
-            <img src={soloEng} className="price"></img>
+            <img src={soloEng} className="price" loading="lazy"></img>
           </div>
         ) : (
           <div className="price-viet">
-            <img src={soloViet} className="price"></img>
+            <img src={soloViet} className="price" loading="lazy"></img>
           </div>
         )}
       </div>
