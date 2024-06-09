@@ -17,7 +17,7 @@ const CoursesViet = () => {
             <div className="course" key={id} id={`course${id}`}>
               <div className="row">
                 <div className="col-10 col-md-5">
-                  <img alt="img" src={img} />
+                  <img alt="img" src={img} loading=" lazy" />
                 </div>
                 <div className="col-10 col-md-5">
                   <h3>{title}</h3>

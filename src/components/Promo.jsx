@@ -19,6 +19,7 @@ const Promo = () => {
         {isEnglish ? (
           <div className="video-container shadows eng" id="shadow">
             <iframe
+              loading="lazy"
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/xoSfZqBXM7s?si=ob6S1p_5dVAOLHGg?wmode=opaque"
