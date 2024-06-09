@@ -95,6 +95,7 @@ img {
   border: none;
   border-radius: 10px;
   margin: 5rem 0;
+  width: 160px;
 }
 
 .contact-btn a {
@@ -104,7 +105,7 @@ img {
   padding: 1rem;
   padding-bottom: 1.2rem;
   display: inline-block;
-  width: 160px;
+  width: 100%;
 }
 
 .contact-btn:hover {
@@ -240,6 +241,10 @@ nav .navbar-nav .nav-link:first-of-type {
 
 .bot-img {
   width: 100%;
+}
+
+.hero .contact-btn {
+  margin: 5rem auto;
 }
 
 /*Promo*/
@@ -397,7 +402,7 @@ nav .navbar-nav .nav-link:first-of-type {
   position: relative;
   z-index: 2;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   margin-left: 2rem;
   padding-bottom: 1rem;
 }
@@ -450,7 +455,6 @@ nav .navbar-nav .nav-link:first-of-type {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 2rem !important;
 }
 
 .footer .qr div {
@@ -460,6 +464,11 @@ nav .navbar-nav .nav-link:first-of-type {
 .footer .zalo {
   height: 5rem;
   width: auto;
+}
+
+.footer .zalo-and-qr {
+  text-align: center;
+  margin-left: 5rem !important;
 }
 
 /*Pricing section*/

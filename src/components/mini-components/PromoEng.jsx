@@ -19,8 +19,8 @@ const PromoEng = () => {
         adults.
       </p>
       <p>
-        Schedule your FREE TRIAL CLASS, get to know how we work and become a
-        confident English speaker with the help of our foreign English masters!
+        Schedule your FREE TRIAL CLASS, get to know how we work and get a taste
+        of the fun of learning with dedicated teachers!
       </p>
     </div>
   );

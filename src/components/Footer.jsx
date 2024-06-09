@@ -2,6 +2,7 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaWhatsappSquare } from "react-icons/fa";
+import { SiZalo } from "react-icons/si";
 import zaloL from "../assets/photos/zalo-ll.jpg";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
@@ -33,10 +34,13 @@ const Footer = () => {
               <p>+381631155407</p>
             </div>
           </div>
-          <div className="qr">
-            <Zoom>
-              <img src={zaloL} className="zalo" />
-            </Zoom>
+          <div className="zalo-and-qr">
+            <SiZalo className="icon" />
+            <div className="qr">
+              <Zoom>
+                <img src={zaloL} className="zalo" />
+              </Zoom>
+            </div>
           </div>
         </div>
       </div>

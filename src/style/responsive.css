@@ -23,8 +23,6 @@
 
   .footer .social {
     padding-bottom: 0.5rem;
-    display: flex;
-    justify-content: center;
   }
 
   .footer .social > div {

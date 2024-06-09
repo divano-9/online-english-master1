@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { Context } from "../states/GlobalContext";
+import { Link } from "react-router-dom";
 import promoBg from "../assets/site-bg.svg";
 import PromoEng from "./mini-components/PromoEng";
 import PromoViet from "./mini-components/PromoViet";
@@ -9,7 +10,6 @@ const Promo = () => {
 
   return (
     <section className="promo purple-bg" id="about">
-      {/* <img className="bg" src={promoBg} /> */}
       <div className="promo-container container">
         <div className="title">
           {isEnglish ? <h2>Promo Video</h2> : <h2>Promo Video</h2>}
@@ -26,8 +26,8 @@ const Promo = () => {
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             ></iframe>
           </div>
         ) : (
@@ -45,6 +45,9 @@ const Promo = () => {
           </div>
         )}
         {isEnglish ? <PromoEng /> : <PromoViet />}
+        <button className="contact-btn">
+          <Link to="/#contact">Sign Up</Link>
+        </button>
       </div>
     </section>
   );

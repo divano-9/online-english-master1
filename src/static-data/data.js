@@ -9,7 +9,7 @@ const data = {
       {
         id: 1,
         img: family,
-        title: "For the Caring Parents:",
+        title: "For Children:",
         txt: "Invest in your child's future by providing them with the gift of language. Our children's courses are fun, interactive, and designed to build confidence alongside language skills. Watch your child describe their world, share their thoughts, and grow intellectually, all under the guidance of experienced educators. With our online platform, you can monitor their progress and be a part of their learning journey, all without leaving your home.",
       },
       {

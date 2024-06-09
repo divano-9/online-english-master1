@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { Context } from "../states/GlobalContext";
+import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import top from "../assets/nav-background.svg";
 import bot from "../assets/hero-background2.svg";
@@ -34,6 +35,9 @@ const Hero = () => {
           <img src={bgV} className="bg-img" />
         )}
       </div>
+      <button className="contact-btn">
+        <Link to="/#contact">Sign Up</Link>
+      </button>
       <div>
         <img src={bot} className="bot-img" />
       </div>
