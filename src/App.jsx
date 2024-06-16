@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import ScrollToAnchor from "./utils/ScrollToAnchor";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="blog" element={<Blog />} />
         </Routes>
         <ScrollToAnchor />
       </Router>

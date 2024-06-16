@@ -53,8 +53,8 @@ const Navigation = () => {
                 <Link to={"/#home"} className="nav-link">
                   Home
                 </Link>
-                <Link to={"/#about"} className="nav-link">
-                  About
+                <Link to={"/blog"} className="nav-link">
+                  Blog
                 </Link>
                 <Link to={"/#courses"} className="nav-link">
                   Courses
@@ -86,6 +86,11 @@ const Navigation = () => {
                       setIsEnglish(false);
                     }}
                   ></span>
+                </div>
+                <div className="btn-container">
+                  <button className="contact-btn">
+                    <Link to="/#contact">Sign Up</Link>
+                  </button>
                 </div>
               </Nav>
             </Navbar.Collapse>

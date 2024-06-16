@@ -35,9 +35,6 @@ const Hero = () => {
           <img src={bgV} className="bg-img" />
         )}
       </div>
-      <button className="contact-btn">
-        <Link to="/#contact">Sign Up</Link>
-      </button>
       <div>
         <img src={bot} className="bot-img" />
       </div>

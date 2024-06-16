@@ -2,9 +2,16 @@
   .footer .social {
     margin-left: 3rem;
   }
+  .blog h1 {
+    font-size: 6rem;
+  }
 }
 
 @media (min-width: 760px) {
+  h2 {
+    font-size: 5rem;
+  }
+
   .footer .social {
     margin-left: 2rem;
     padding-bottom: 1rem;
@@ -36,6 +43,14 @@
   .footer .qr {
     padding: 1rem 0;
   }
+  .blog h1 {
+    font-size: 7rem;
+  }
+  .blog h1,
+  .blog h2,
+  .blog p {
+    padding: 0;
+  }
 }
 
 @media (min-width: 992px) {
@@ -58,7 +73,7 @@
   }
 
   .nav-top {
-    min-height: none;
+    min-height: 140px;
   }
 
   .navigation nav .navbar-nav {
@@ -98,6 +113,22 @@
   .navigation .zalo {
     height: 3rem;
     width: auto;
+  }
+
+  .navigation .btn-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2rem;
+  }
+
+  .navigation .contact-btn {
+    width: 80px;
+  }
+
+  .navigation .contact-btn a {
+    padding: 0.2rem;
+    padding-bottom: 0.4rem;
+    font-size: 1.5rem;
   }
 
   .hero .bg-img {

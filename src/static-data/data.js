@@ -2,6 +2,8 @@ import family from "../assets/photos/family.jpg";
 import business from "../assets/photos/business.jpg";
 import housewife from "../assets/photos/housewife.jpg";
 import student from "../assets/photos/student.jpg";
+import blogImg2 from "../assets/blog/blog-img-2.png";
+import blogImg3 from "../assets/blog/blog-img-3.png";
 
 const data = {
   eng: {
@@ -9,44 +11,158 @@ const data = {
       {
         id: 1,
         img: family,
-        title: "For Children:",
-        txt: "Invest in your child's future by providing them with the gift of language. Our children's courses are fun, interactive, and designed to build confidence alongside language skills. Watch your child describe their world, share their thoughts, and grow intellectually, all under the guidance of experienced educators. With our online platform, you can monitor their progress and be a part of their learning journey, all without leaving your home.",
+        title: "For Kids:",
+        txt: "Invest in your child's future with fun, interactive courses that build confidence and language skills. Monitor their progress and be part of their learning journey without leaving home.",
       },
       {
         id: 2,
-        img: business,
-        title: "For the Busy Business Professionals:",
-        txt: "Time is money, and we understand that. With Master 1, bid farewell to the time lost in traffic and say hello to efficient and impactful learning from your office or home. Whether you're preparing for an international conference, aiming to excel in global markets, or wishing to communicate more effectively with international partners, our one-on-one lessons are designed to fit into your hectic schedule, offering practical business English that directly applies to your professional needs.",
+        img: student,
+        title: "For the Diligent Students:",
+        txt: "Whether preparing for international opportunities or aiming to excel in exams like IELTS, our courses are designed to meet your academic goals. Learn at your own pace, focusing on areas of interest.",
       },
       {
         id: 3,
         img: housewife,
         title: "For the Dedicated Housewives:",
-        txt: "Embrace the opportunity to connect with the world from the comfort of your home. Whether you're interested in enhancing your communication skills, helping your children with their English homework, or simply exploring a new hobby, our flexible schedules allow you to learn at your own pace.  Engage in meaningful conversations, understand your favorite English shows without subtitles, or prepare for a future trip abroad - all while managing your household responsibilities.",
+        txt: "Enhance your communication skills, assist your children with their homework, and enjoy English shows without subtitles. Learn at your own pace while managing your household responsibilities.",
       },
       {
         id: 4,
-        img: student,
-        title: "For the Diligent Students:",
-        txt: "Whether you're a high school student aiming for international opportunities or a university student preparing for the IELTS, our courses are crafted to meet your academic and personal growth goals. Learn at your own pace, focus on your areas of interest, and gain the confidence to excel in your studies and beyond.",
+        img: business,
+        title: "For the Busy Professionals:",
+        txt: "Maximize your time with efficient, impactful learning tailored to your business needs. Prepare for international conferences, excel in global markets, and communicate effectively with international partners from your office or home.",
       },
     ],
     choose: [
-      [
-        "Flexibility: Learn anytime and anywhere. Tailor your learning schedule to fit your lifestyle and goals.",
-      ],
-      [
-        "Personalization: Choose what you want to learn. Our courses are designed around your goals and interests, ensuring relevance and engagement.",
-      ],
-      [
-        "Efficiency: Maximize your learning outcomes with one-on-one lessons that focus solely on your progress.",
-      ],
-      [
-        "Technology: Utilize our user-friendly platform and access lessons from any device, ensuring convenience and continuity in your learning journey.",
-      ],
-      [
-        "Community: Join a community of learners who are on the same path as you.  Together, you will share experiences and grow!",
-      ],
+      ["Flexibility: Learn anytime, anywhere."],
+      ["Personalization: Courses tailored to your goals and interests."],
+      ["Efficiency: One-on-one lessons focused on your progress."],
+      ["Technology: User-friendly platform accessible from any device."],
+      ["Community: Join a supportive community of learners."],
+    ],
+    blog: [
+      {
+        title: "Advantages of Online English Classes",
+        img: blogImg2,
+        txt: [
+          {
+            bold: "Flexibility: ",
+            paragraph:
+              "One of the most notable advantages is the flexibility of learning at your own pace and time. Whether you're balancing work, studies, or personal commitments, online classes adjust to your schedule, not the other way around.",
+          },
+          {
+            bold: "Comfort: ",
+            paragraph:
+              "Another significant advantage is the ability to learn from your own home. Forget about pushing in buses, delays, traffic jams, and the stress of finding a parking spot. Save time, energy, and money by learning from your bed, living room, or hotel while on vacation.",
+          },
+          {
+            bold: "Accessibility: ",
+            paragraph:
+              "Geography is no longer a barrier. With an internet connection, you have access to quality education in English from foreign teachers.",
+          },
+          {
+            bold: "Resource Diversity: ",
+            paragraph:
+              "Online platforms offer an abundance of materials—e-books, videos, podcasts, interactive quizzes—that cater to different learning styles, ensuring a holistic approach to language acquisition.",
+          },
+          {
+            bold: "Personalized Learning: ",
+            paragraph:
+              "Many online platforms offer a personalized learning experience, adjusting to your skill level and focusing on areas that require improvement.",
+          },
+          {
+            bold: "Cost Effectiveness: ",
+            paragraph:
+              "Online courses are often more affordable than traditional face-to-face classes, eliminating transportation and material costs.",
+          },
+          {
+            bold: "Environmental Protection: ",
+            paragraph:
+              "Since you don't travel by car or bus and books aren't printed, no exhaust gasses are emitted and no trees are cut down. Online English classes are a perfect solution for environmentally conscious people who want to improve their language skills.",
+          },
+        ],
+      },
+      {
+        title: "Disadvantages of Online English Classes",
+        img: blogImg3,
+        txt: [
+          {
+            bold: "Lack of In-Person Interaction: ",
+            paragraph:
+              "The absence of face-to-face communication can be a downside for those who thrive in traditional classrooms.",
+          },
+          {
+            bold: "Self-Discipline Required: ",
+            paragraph:
+              "Online learning requires a high level of self-motivation and discipline. Without it, keeping up with the course can become challenging.",
+          },
+          {
+            bold: "Technical Problems: ",
+            paragraph:
+              "Dependence on technology means that internet problems, power outages, or computer bugs can disrupt learning, leading to poor connection in class, interruptions, or even a missed class.",
+          },
+          {
+            bold: "Distractions: ",
+            paragraph:
+              "Since classes are attended from home or a similar environment, there is a possibility that parents, children, or pets might interrupt the class. A doorbell, lunch, or a game in another tab can also divert attention and disrupt concentration.",
+          },
+        ],
+      },
+      {
+        title: "How to Succeed in Online English Classes",
+        txt: [
+          {
+            bold: "Establish a Routine: ",
+            paragraph:
+              "Consistency is key. Set a regular schedule to maintain continuity in your learning.",
+          },
+          {
+            bold: "Actively Participate: ",
+            paragraph:
+              "Participate in forums, complete interactive exercises, and attend live sessions if available. Speak as much as possible during classes.",
+          },
+          {
+            bold: "Set Realistic Goals: ",
+            paragraph:
+              "Define clear, achievable goals to stay motivated and track your progress.",
+          },
+          {
+            bold: "Create a Conducive Learning Environment: ",
+            paragraph:
+              "Ensure you have a quiet, comfortable space dedicated to your studies.",
+          },
+          {
+            bold: "Leverage Technology: ",
+            paragraph:
+              "Use available tools and apps to enhance your learning experience. Apps like Duolingo or Babbel can be great for vocabulary building. Websites like BBC Learning English offer a range of materials tailored to different levels.",
+          },
+        ],
+      },
+      {
+        title: "Choosing the Right Online English Program",
+        txt: [
+          {
+            bold: "Accreditation: ",
+            paragraph:
+              "Check the credibility of the program. Accredited courses are more likely to be of quality and recognized by employers and educational institutions.",
+          },
+          {
+            bold: "Reviews and Testimonials: ",
+            paragraph:
+              "Feedback from past students can provide valuable insights into the effectiveness of the course.",
+          },
+          {
+            bold: "Course Structure: ",
+            paragraph:
+              "Ensure the curriculum aligns with your goals, whether you're learning English for travel, business, or academic purposes.",
+          },
+          {
+            bold: "Instructor Qualifications: ",
+            paragraph:
+              "Qualified, experienced instructors can significantly enhance your learning experience.",
+          },
+        ],
+      },
     ],
   },
   viet: {
@@ -54,44 +170,160 @@ const data = {
       {
         id: 1,
         img: family,
-        title: "Dành cho Những Bậc Phụ Huynh Quan Tâm:",
-        txt: "Đầu tư vào tương lai của con cái bạn bằng cách cung cấp cho cac em món quà của ngôn ngữ. Các khóa học dành cho trẻ em của chúng tôi mang su vui nhộn, tương tác cao và được thiết kế để xây dựng sự tự tin cùng với kỹ năng ngôn ngữ. Quan sát con bạn mô tả thế giới xung quanh, chia sẻ suy nghĩ của mình, và phát triển trí tuệ dưới sự hướng dẫn của các giáo viên giàu kinh nghiệm. Với nền tảng trực tuyến của chúng tôi, bạn có thể theo dõi tiến trình và trở thành một phần của hành trình học tập của cac em, tất cả mà không cần phải rời khỏi nhà của mình.",
+        title: "Dành cho Trẻ Em:",
+        txt: "Đầu tư vào tương lai của con bạn với các khóa học vui nhộn, tương tác giúp xây dựng sự tự tin và kỹ năng ngôn ngữ. Theo dõi tiến trình của chúng và tham gia vào hành trình học tập của chúng mà không cần rời khỏi nhà.",
       },
       {
         id: 2,
-        img: business,
-        title: "Dành cho Những Người Làm Việc Bận Rộn:",
-        txt: "Thời gian là vàng và chúng tôi hiểu điều đó. Với Master 1, ban co the hoc hieu qua ngay tai van phong hoac tai nha ma khong can phai di chuyen xa. Dù bạn đang chuẩn bị cho một hội nghị quốc tế,  hay muốn giao tiếp hiệu quả hơn với các đối tác quốc tế, các bài học một-thầy-một-trò của chúng tôi được thiết kế để phù hợp với lịch trình bận rộn của bạn, cung cấp tiếng Anh ma ban co the trực tiếp áp dụng vào bối cảnh cong viec của bạn.",
+        img: student,
+        title: "Dành cho Học Sinh Siêng Năng:",
+        txt: "Dù đang chuẩn bị cho cơ hội quốc tế hay muốn xuất sắc trong các kỳ thi như IELTS, các khóa học của chúng tôi được thiết kế để đáp ứng mục tiêu học thuật của bạn. Học theo tốc độ của riêng bạn, tập trung vào các lĩnh vực quan tâm.",
       },
       {
         id: 3,
         img: housewife,
         title: "Dành cho Những Bà Nội Trợ Tận Tâm:",
-        txt: "Hãy nắm bắt cơ hội để kết nối với thế giới ngay từ sự thoải mái tại nhà bạn. Dù bạn quan tâm đến việc nâng cao kỹ năng giao tiếp, giúp đỡ con cái với bài tập tiếng Anh, hay đơn giản là khám phá một sở thích mới, lịch trình linh hoạt của chúng tôi cho phép bạn học ở tốc độ và thời gian của riêng mình. Tham gia vào các cuộc trò chuyện có ý nghĩa, hiểu được chương trình tiếng Anh yêu thích của bạn mà không cần phụ đề, hoặc chuẩn bị cho một chuyến đi nước ngoài trong tương lai - tất cả trong khi bạn vẫn quản lý được các trách nhiệm gia đình.",
+        txt: "Nâng cao kỹ năng giao tiếp, hỗ trợ con cái bạn với bài tập về nhà và thưởng thức các chương trình tiếng Anh mà không cần phụ đề. Học theo tốc độ của bạn trong khi quản lý trách nhiệm gia đình.",
       },
       {
         id: 4,
-        img: student,
-        title: "Dành cho Học Sinh Siêng Năng:",
-        txt: "Dù bạn là một học sinh trung học phổ thông đang nhắm đến cơ hội quốc tế hay một sinh viên đại học đang chuẩn bị cho kỳ thi IELTS, các khóa học của chúng tôi được thiết kế để đáp ứng mục tiêu phát triển cá nhân và học thuật của bạn. Học ở tốc độ của riêng bạn, tập trung vào các lĩnh vực bạn quan tâm, và có được sự tự tin để xuất sắc trong học tập và hơn thế nữa.",
+        img: business,
+        title: "Dành cho Những Người Làm Việc Bận Rộn:",
+        txt: "Tối đa hóa thời gian của bạn với việc học hiệu quả, có ảnh hưởng, được cá nhân hóa theo nhu cầu kinh doanh của bạn. Chuẩn bị cho các hội nghị quốc tế, xuất sắc trong thị trường toàn cầu và giao tiếp hiệu quả với các đối tác quốc tế ngay từ văn phòng hoặc nhà của bạn.",
       },
     ],
     choose: [
+      ["Linh Hoạt: Học bất cứ lúc nào, bất cứ nơi đâu."],
+      ["Cá Nhân Hóa: Các bài học cá nhân tập trung vào tiến trình của bạn."],
+      ["Hiệu Quả: Các bài học cá nhân tập trung vào tiến trình của bạn."],
       [
-        "Linh hoạt: Học bất cứ lúc nào, bất cứ nơi đâu. Điều chỉnh lịch học phù hợp với lối sống của bạn, không phải ngược lại.",
+        "Công Nghệ: Nền tảng thân thiện với người dùng, có thể truy cập từ bất kỳ thiết bị nào.",
       ],
-      [
-        "Cá nhân hóa: Chọn những gì bạn muốn học. Các khóa học của chúng tôi được thiết kế xung quanh mục tiêu và sở thích của bạn, đảm bảo tính liên quan và sự tham gia.",
-      ],
-      [
-        "Hiệu quả: Tối đa hóa kết quả học tập của bạn với các bài học một-kèm-một tập trung hoàn toàn vào tiến trình của bạn.",
-      ],
-      [
-        "Công nghệ: Sử dụng nền tảng thân thiện với người dùng của chúng tôi và truy cập bài học từ bất kỳ thiết bị nào, đảm bảo sự tiện lợi và liên tục trong hành trình học của bạn.",
-      ],
-      [
-        "Cộng đồng: Tham gia vào một cộng đồng người học đang trên cùng một con đường như bạn, chia sẻ kinh nghiệm và cùng nhau phát triển.",
-      ],
+      ["Cộng Đồng: Tham gia cộng đồng học viên hỗ trợ lẫn nhau."],
+    ],
+    blog: [
+      {
+        title: "Lợi ích của Các Lớp Học Tiếng Anh Trực Tuyến",
+        img: blogImg2,
+        txt: [
+          {
+            bold: "Linh Hoạt: ",
+            paragraph:
+              "Một trong những lợi ích nổi bật nhất là khả năng học tập theo tốc độ và thời gian riêng của bạn. Dù bạn đang cân bằng giữa công việc, học tập hay các cam kết cá nhân, các lớp học trực tuyến sẽ thích nghi với lịch trình của bạn, chứ không phải ngược lại.",
+          },
+          {
+            bold: "Thoải Mái: ",
+            paragraph:
+              "Một lợi ích đáng kể khác là khả năng học tập ngay tại nhà bạn. Quên đi việc chen lấn trên xe buýt, sự chậm trễ, kẹt xe và căng thẳng khi tìm chỗ đậu xe. Tiết kiệm thời gian, năng lượng và tiền bạc bằng cách học từ giường, phòng khách hoặc khách sạn trong khi bạn đang đi nghỉ.",
+          },
+          {
+            bold: "Khả Năng Truy Cập: ",
+            paragraph:
+              "Địa lý không còn là rào cản. Với kết nối internet, bạn có thể tiếp cận với giáo dục chất lượng cao về tiếng Anh từ các giáo viên nước ngoài.",
+          },
+          {
+            bold: "Đa Dạng Tài Nguyên: ",
+            paragraph:
+              "Các nền tảng trực tuyến cung cấp nhiều tài liệu phong phú—sách điện tử, video, podcast, câu đố tương tác—phù hợp với nhiều phong cách học tập, đảm bảo một cách tiếp cận toàn diện trong việc học ngôn ngữ.",
+          },
+          {
+            bold: "Học Tập Cá Nhân Hóa: ",
+            paragraph:
+              "Nhiều nền tảng trực tuyến cung cấp trải nghiệm học tập cá nhân hóa, điều chỉnh theo trình độ kỹ năng của bạn và tập trung vào các lĩnh vực cần cải thiện",
+          },
+          {
+            bold: "Hiệu Quả Chi Phí: ",
+            paragraph:
+              "Các khóa học trực tuyến thường rẻ hơn so với các lớp học truyền thống trực tiếp, loại bỏ chi phí đi lại và nguyên liệu.",
+          },
+          {
+            bold: "Bảo Vệ Môi Trường: ",
+            paragraph:
+              "Bởi vì bạn không di chuyển bằng ô tô hay xe buýt và sách không được in, không có khí thải và không có cây nào bị chặt. Các lớp học tiếng Anh trực tuyến là giải pháp hoàn hảo cho những người ý thức được môi trường và muốn cải thiện kỹ năng ngôn ngữ của mình.",
+          },
+        ],
+      },
+      {
+        title: "Nhược điểm của Các Lớp Học Tiếng Anh Trực Tuyến",
+        img: blogImg3,
+        txt: [
+          {
+            bold: "Thiếu Tương Tác Trực Tiếp: ",
+            paragraph:
+              "Sự vắng mặt của giao tiếp mặt đối mặt có thể là một nhược điểm đối với những người phát triển tốt trong môi trường học tập truyền thống.",
+          },
+          {
+            bold: "Yêu Cầu Tự Kỷ Luật: ",
+            paragraph:
+              "Học trực tuyến đòi hỏi mức độ tự động viên và kỷ luật cao. Nếu không có điều đó, việc theo kịp khóa học có thể trở nên thách thức.",
+          },
+          {
+            bold: "Vấn Đề Kỹ Thuật: ",
+            paragraph:
+              "Sự phụ thuộc vào công nghệ có nghĩa là các vấn đề về internet, mất điện, hoặc lỗi máy tính có thể làm gián đoạn việc học, dẫn đến kết nối kém trong lớp, gián đoạn, hoặc thậm chí bỏ lỡ một buổi học.",
+          },
+          {
+            bold: "Sự Phân Tâm: ",
+            paragraph:
+              "Vì các lớp học được tham dự tại nhà hoặc một môi trường tương tự, có khả năng bị gián đoạn bởi cha mẹ, trẻ em, hoặc thú cưng. Tiếng chuông cửa, bữa trưa, hoặc một trò chơi trên tab khác cũng có thể làm phân tâm và làm gián đoạn sự tập trung.",
+          },
+        ],
+      },
+      {
+        title: "Cách Thành Công trong Các Lớp Học Tiếng Anh Trực Tuyến",
+        txt: [
+          {
+            bold: "Thiết Lập Thói Quen: ",
+            paragraph:
+              "Sự nhất quán là chìa khóa. Hãy thiết lập một lịch trình đều đặn để duy trì sự liên tục trong việc học của bạn.",
+          },
+          {
+            bold: "Tham Gia Tích Cực: ",
+            paragraph:
+              "Tham gia vào các diễn đàn, hoàn thành các bài tập tương tác, và tham dự các buổi học trực tiếp nếu có. Hãy nói càng nhiều càng tốt trong các lớp học.",
+          },
+          {
+            bold: "Đặt Mục Tiêu Thực Tế: ",
+            paragraph:
+              "Xác định các mục tiêu rõ ràng, có thể đạt được để giữ động lực và theo dõi tiến trình của bạn.",
+          },
+          {
+            bold: "Tạo Môi Trường Học Tập Thuận Lợi: ",
+            paragraph:
+              "Đảm bảo bạn có một không gian yên tĩnh, thoải mái dành riêng cho việc học.",
+          },
+          {
+            bold: "Tận Dụng Công Nghệ: ",
+            paragraph:
+              "Sử dụng các công cụ và ứng dụng có sẵn để nâng cao trải nghiệm học tập của bạn. Các ứng dụng như Duolingo hoặc Babbel có thể rất tốt cho việc xây dựng từ vựng. Các trang web như BBC Learning English cung cấp nhiều tài liệu phù hợp với các cấp độ khác nhau.",
+          },
+        ],
+      },
+      {
+        title: "Chọn Chương Trình Học Tiếng Anh Trực Tuyến Phù Hợp",
+        txt: [
+          {
+            bold: "Chứng Nhận: ",
+            paragraph:
+              "Kiểm tra tính xác thực của chương trình. Các khóa học được chứng nhận thường có chất lượng cao và được các nhà tuyển dụng và cơ sở giáo dục công nhận.",
+          },
+          {
+            bold: "Đánh Giá và Lời Chứng Thực: ",
+            paragraph:
+              "Phản hồi từ các học viên trước đây có thể cung cấp cái nhìn sâu sắc quý giá về hiệu quả của khóa học.",
+          },
+          {
+            bold: "Cấu Trúc Khóa Học: ",
+            paragraph:
+              "Đảm bảo chương trình học phù hợp với mục tiêu của bạn, dù bạn đang học tiếng Anh cho mục đích du lịch, kinh doanh hay học thuật.",
+          },
+          {
+            bold: "Trình Độ Giảng Viên: ",
+            paragraph:
+              "Các giảng viên có trình độ và kinh nghiệm có thể cải thiện đáng kể trải nghiệm học tập của bạn.",
+          },
+        ],
+      },
     ],
   },
 };

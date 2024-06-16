@@ -13,7 +13,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <img src={bot} className="bot-img" loading="lazy" />
+      <img src={bot} className="bot-img" />
     </section>
   );
 };

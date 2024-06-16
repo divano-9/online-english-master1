@@ -60,7 +60,7 @@ p {
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1px;
 }
@@ -110,6 +110,11 @@ img {
 
 .contact-btn:hover {
   background-color: #7bd1ee;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
 }
 
 .fix {
@@ -217,6 +222,22 @@ nav .navbar-nav .nav-link:first-of-type {
   color: #71519f;
 }
 
+.navigation .contact-btn a:hover {
+  background-color: transparent;
+  color: #fefffe;
+}
+
+.navigation .btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.navigation .contact-btn {
+  width: 100px;
+  margin: 0;
+}
+
 /*Hero*/
 
 .hero {
@@ -241,10 +262,6 @@ nav .navbar-nav .nav-link:first-of-type {
 
 .bot-img {
   width: 100%;
-}
-
-.hero .contact-btn {
-  margin: 5rem auto;
 }
 
 /*Promo*/
@@ -484,4 +501,29 @@ nav .navbar-nav .nav-link:first-of-type {
 
 .pricing .price:last-of-type {
   margin-bottom: 2rem;
+}
+
+/*Blog*/
+.blog .row {
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.blog h1 {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
+.blog h2 {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.blog h1,
+.blog h2,
+.blog p {
+  padding: 0 2rem;
 }
