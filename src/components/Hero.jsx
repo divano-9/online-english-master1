@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import top from "../assets/nav-background.svg";
 import bot from "../assets/hero-background2.svg";
-import bg from "../assets/hero-illustration2.svg";
-import bgV from "../assets/hero-illustration2-v.svg";
-import mob from "../assets/hero-mob-illustration2.svg";
-import mobV from "../assets/hero-mob-illustration2-v.svg";
+import bg from "../assets/hero-illustration3.svg";
+import bgV from "../assets/hero-illustration3-v.svg";
+import mob from "../assets/hero-mob-illustration3.svg";
+import mobV from "../assets/hero-mob-illustration3-v.svg";
 import useWindowDimensions from "../utils/useWindowDimensions";
 
 const Hero = () => {

@@ -12,6 +12,12 @@
     font-size: 5rem;
   }
 
+  .course .row div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .footer .social {
     margin-left: 2rem;
     padding-bottom: 1rem;
