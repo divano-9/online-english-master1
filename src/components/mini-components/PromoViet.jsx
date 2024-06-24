@@ -2,12 +2,10 @@ const PromoViet = () => {
   return (
     <div className="promo-txt viet">
       <p>
-        <strong>
-          Trải nghiệm các lớp học tiếng Anh trực tuyến cá nhân một-kèm-một với
-          giáo viên nước ngoài ngay tại sự thoải mái của ngôi nhà bạn với lịch
-          trình linh hoạt và buổi học đầu tiên miễn phí để nâng cao sự tự tin và
-          kỹ năng của bạn.
-        </strong>
+        Master 1 tặng bạn 1 buổi học đầu tiên miễn phí, cung cấp cho bạn lớp họ{" "}
+        <strong>ONLINE 1-1</strong> cùng giáo viên nước ngoài, nội dung và lịch
+        học phù hợp với nhu cầu từng cá nhân, chú trọng từng kỹ năng và giúp bạn
+        tự tin giao tiếp bằng Tiếng Anh.
       </p>
     </div>
   );

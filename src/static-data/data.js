@@ -17,19 +17,19 @@ const data = {
       {
         id: 2,
         img: student,
-        title: "For the Diligent Students:",
+        title: "For Diligent Students:",
         txt: "Whether preparing for international opportunities or aiming to excel in exams like IELTS, our courses are designed to meet your academic goals. Learn at your own pace, focusing on areas of interest.",
       },
       {
         id: 3,
         img: housewife,
-        title: "For the Dedicated Housewives:",
+        title: "For Dedicated Housewives:",
         txt: "Enhance your communication skills, assist your children with their homework, and enjoy English shows without subtitles. Learn at your own pace while managing your household responsibilities.",
       },
       {
         id: 4,
         img: business,
-        title: "For the Busy Professionals:",
+        title: "For Busy Professionals:",
         txt: "Maximize your time with efficient, impactful learning tailored to your business needs. Prepare for international conferences, excel in global markets, and communicate effectively with international partners from your office or home.",
       },
     ],
@@ -170,36 +170,40 @@ const data = {
       {
         id: 1,
         img: family,
-        title: "Dành cho Trẻ Em:",
-        txt: "Đầu tư vào tương lai của con bạn với các khóa học vui nhộn, tương tác giúp xây dựng sự tự tin và kỹ năng ngôn ngữ. Theo dõi tiến trình của chúng và tham gia vào hành trình học tập của chúng mà không cần rời khỏi nhà.",
+        title: "Lớp học ONLINE 1-1 dành cho Trẻ em: ",
+        txt: "Giờ đây bố mẹ có thể dễ dàng đồng hành và theo dõi bài vở của trẻ với lớp học ngay tại nhà. Các con được rèn luyện sự tự tin, khả năng giao tiếp nhờ vào các bài học tương tác vui nhộn.",
       },
       {
         id: 2,
         img: student,
-        title: "Dành cho Học Sinh Siêng Năng:",
-        txt: "Dù đang chuẩn bị cho cơ hội quốc tế hay muốn xuất sắc trong các kỳ thi như IELTS, các khóa học của chúng tôi được thiết kế để đáp ứng mục tiêu học thuật của bạn. Học theo tốc độ của riêng bạn, tập trung vào các lĩnh vực quan tâm.",
+        title: "Lớp học ONLINE 1-1 dành cho Học sinh, Sinh viên:",
+        txt: "Master 1 đồng hành cùng bạn chinh phục các kì thi học thuật quốc tế IELTS, TOEIC,…Giáo viên của bạn thấu hiểu bạn cần gì và nên học như thế nào.",
       },
       {
         id: 3,
         img: housewife,
-        title: "Dành cho Những Bà Nội Trợ Tận Tâm:",
-        txt: "Nâng cao kỹ năng giao tiếp, hỗ trợ con cái bạn với bài tập về nhà và thưởng thức các chương trình tiếng Anh mà không cần phụ đề. Học theo tốc độ của bạn trong khi quản lý trách nhiệm gia đình.",
+        title: "Lớp học ONLINE 1-1 dành Bố mẹ: ",
+        txt: "Bố mẹ được điều chỉnh lịch học cho phù hợp với công việc và chăm sóc gia đình. Master 1 giúp bố mẹ luyện kỹ năng giao tiếp để tự tin đồng hành cùng con trẻ, và một tương lai xem phim không cần sub.",
       },
       {
         id: 4,
         img: business,
-        title: "Dành cho Những Người Làm Việc Bận Rộn:",
-        txt: "Tối đa hóa thời gian của bạn với việc học hiệu quả, có ảnh hưởng, được cá nhân hóa theo nhu cầu kinh doanh của bạn. Chuẩn bị cho các hội nghị quốc tế, xuất sắc trong thị trường toàn cầu và giao tiếp hiệu quả với các đối tác quốc tế ngay từ văn phòng hoặc nhà của bạn.",
+        title: "Lớp học ONLINE 1-1 dành cho Người đi làm: ",
+        txt: "Học sao cho vừa tiết kiệm thời gian tiền bạc lại vừa hiệu quả? Tại Master 1, bạn được chủ động chọn học những gì cần cho công việc và sắp xếp thời gian linh hoạt. Bạn có thể học ONLINE 1-1 cùng giáo viên nước ngoài để tự tin tham gia phỏng vấn, giao tiếp với đối tác nước ngoài, tham gia hội thảo toàn bằng Tiếng Anh.",
       },
     ],
     choose: [
       ["Linh Hoạt: Học bất cứ lúc nào, bất cứ nơi đâu."],
-      ["Cá Nhân Hóa: Các bài học cá nhân tập trung vào tiến trình của bạn."],
-      ["Hiệu Quả: Các bài học cá nhân tập trung vào tiến trình của bạn."],
       [
-        "Công Nghệ: Nền tảng thân thiện với người dùng, có thể truy cập từ bất kỳ thiết bị nào.",
+        "Cá Nhân Hóa: Các khóa học được thiết kế theo nhu cầu riêng của từng học viên.",
       ],
-      ["Cộng Đồng: Tham gia cộng đồng học viên hỗ trợ lẫn nhau."],
+      ["Hiệu Quả: Lớp học 1 thầy 1 trò, thầy cô sâu sát với từng học viên."],
+      [
+        "Công nghệ: Học được trên bất kì thiết bị nào (điện thoại, máy tính bảng, máy tính).",
+      ],
+      [
+        "Cộng Đồng: Master 1 xây dựng một cộng đồng người học cùng nhau trao đổi, giúp đỡ và phát triển.",
+      ],
     ],
     blog: [
       {
