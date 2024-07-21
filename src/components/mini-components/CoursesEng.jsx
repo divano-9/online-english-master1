@@ -1,9 +1,6 @@
-import { useContext } from "react";
 import data from "../../static-data/data.js";
-import { Context } from "../../states/GlobalContext";
 
 const CoursesEng = () => {
-  const { isEnglish } = useContext(Context);
   return (
     <div className="courese-eng">
       <div className="title">

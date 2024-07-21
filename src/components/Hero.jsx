@@ -11,7 +11,7 @@ import mobV from "../assets/hero-mob-illustration3-v.svg";
 import useWindowDimensions from "../utils/useWindowDimensions";
 
 const Hero = () => {
-  const { isEnglish } = useContext(Context);
+  const { language } = useContext(Context);
 
   const { height, width } = useWindowDimensions();
   const breakpoint = 700;
@@ -24,12 +24,12 @@ const Hero = () => {
 
       <div className="hero-container container">
         {width < breakpoint ? (
-          isEnglish ? (
+          language === "eng" || language === "srb" ? (
             <img src={mob} className="bg-img bg-mob" />
           ) : (
             <img src={mobV} className="bg-img bg-mob" />
           )
-        ) : isEnglish ? (
+        ) : language === "eng" || language === "srb" ? (
           <img src={bg} className="bg-img" />
         ) : (
           <img src={bgV} className="bg-img" />

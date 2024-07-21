@@ -4,47 +4,55 @@ import { Link } from "react-router-dom";
 import promoBg from "../assets/site-bg.svg";
 import PromoEng from "./mini-components/PromoEng";
 import PromoViet from "./mini-components/PromoViet";
+import PromoSrb from "./mini-components/PromoSrb";
 
 const Promo = () => {
-  const { isEnglish } = useContext(Context);
+  const { language } = useContext(Context);
 
   return (
     <section className="promo purple-bg" id="about">
       <div className="promo-container container">
         <div className="title">
-          {isEnglish ? <h2>Promo Video</h2> : <h2>Promo Video</h2>}
+          {language === "eng" || language === "srb" ? (
+            <h2>Promo Video</h2>
+          ) : (
+            <h2>Promo Video</h2>
+          )}
           <hr />
         </div>
 
-        {isEnglish ? (
+        {language === "eng" || language === "srb" ? (
           <div className="video-container shadows eng" id="shadow">
             <iframe
-              loading="lazy"
+              src="https://player.vimeo.com/video/975419435?h=8826bd41da"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/xoSfZqBXM7s?si=ob6S1p_5dVAOLHGg?wmode=opaque"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
             ></iframe>
           </div>
         ) : (
           <div className="video-container shadows viet" id="shadow">
             <iframe
+              src="https://player.vimeo.com/video/975424732?h=02f316d6da"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/iTHje6amhCo?si=agj7uFUTyX6C3EBF?wmode=opaque"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
+              loading="lazy"
             ></iframe>
           </div>
         )}
-        {isEnglish ? <PromoEng /> : <PromoViet />}
+        {language === "eng" ? (
+          <PromoEng />
+        ) : language === "srb" ? (
+          <PromoSrb />
+        ) : (
+          <PromoViet />
+        )}
         <button className="contact-btn">
           <Link to="/#contact">Sign Up</Link>
         </button>

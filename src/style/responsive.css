@@ -29,7 +29,7 @@
   body {
     background-size: 100%;
   }
-  .promo .video-container {
+  .video-container {
     width: 600px;
     height: 350px;
   }
@@ -141,7 +141,7 @@
     height: 50%;
   }
 
-  .promo .video-container {
+  .video-container {
     width: 700px;
     height: 400px;
   }

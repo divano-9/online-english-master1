@@ -9,7 +9,7 @@ import { useContext } from "react";
 import { Context } from "../states/GlobalContext";
 
 const Blog = () => {
-  const { isEnglish } = useContext(Context);
+  const { language } = useContext(Context);
 
   return (
     <div className="blog white-bg">
@@ -19,7 +19,7 @@ const Blog = () => {
       </div>
       <main className="blog-content">
         <div className="container">
-          {isEnglish ? (
+          {language === "eng" ? (
             <div className="eng">
               <h1>
                 Guide to Online English Classes: Everything You Need to Know
@@ -60,7 +60,7 @@ const Blog = () => {
               <img src={img1} alt="img-1" />
             </div>
           </div>
-          {isEnglish
+          {language === "eng"
             ? data.eng.blog.map((post, index) => {
                 const { title, txt, img } = post;
                 console.log(txt);
@@ -114,7 +114,7 @@ const Blog = () => {
                 );
               })}
 
-          {isEnglish ? (
+          {language === "eng" ? (
             <div className="eng">
               <h2>Embracing the Future of Learning</h2>
               <p>

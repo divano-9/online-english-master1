@@ -13,7 +13,7 @@ import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { Context } from "../states/GlobalContext";
 
 const Navigation = () => {
-  const { setIsEnglish, languages } = useContext(Context);
+  const { setLanguage, languages } = useContext(Context);
 
   const [show, setShow] = useState(false);
   const hamburgerBtn = useRef(null);
@@ -32,7 +32,10 @@ const Navigation = () => {
     window.addEventListener("scroll", controlNavbar);
     console.log("languages: ", languages);
     if (languages[0] == "vi") {
-      setIsEnglish(false);
+      setLanguage("viet");
+    }
+    if (languages[0] == "sr") {
+      setLanguage("srb");
     }
   }, []);
 
@@ -73,17 +76,24 @@ const Navigation = () => {
                 </div>
                 <div className="language">
                   <span
-                    className="fi fi-gb "
+                    className="fi fi-gb"
                     onClick={() => {
                       console.log("english");
-                      setIsEnglish(true);
+                      setLanguage("eng");
                     }}
                   ></span>
                   <span
-                    className="fi fi-vn "
+                    className="fi fi-vn"
                     onClick={() => {
                       console.log("viet");
-                      setIsEnglish(false);
+                      setLanguage("viet");
+                    }}
+                  ></span>
+                  <span
+                    className="fi fi-rs"
+                    onClick={() => {
+                      console.log("serbian");
+                      setLanguage("srb");
                     }}
                   ></span>
                 </div>

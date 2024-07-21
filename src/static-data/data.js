@@ -330,6 +330,171 @@ const data = {
       },
     ],
   },
+  srb: {
+    course: [
+      {
+        id: 1,
+        img: family,
+        title: "Za decu:",
+        txt: "Investirajte u budućnost Vaše dece kroz zabavne interaktivne kurseve koji grade samopouzdanje i jezičke veštine. Pratite njihov napredak i budite deo njihovog obrazovnog puta, a sve to od kuće.",
+      },
+      {
+        id: 2,
+        img: student,
+        title: "Za marljive studente:",
+        txt: "Bilo da se pripremate za međunarodne studije ili težite karijeri u inostranstvu, naši kursevi su dizajnirani da zadovolje Vaše akademske ciljeve. Učite sopstvenim tempom, fokusirajući se na oblasti koje Vas interesuju.",
+      },
+      {
+        id: 3,
+        img: housewife,
+        title: "Za posvećene domaćice/ine:",
+        txt: "Poboljšajte svoje komunikacione veštine, pomažite svojoj deci sa domaćim zadacima i uživajte u engleskim serijama I filmovima bez titlova. Učite sopstvenim tempom dok upravljate svojim domaćinstvom.",
+      },
+      {
+        id: 4,
+        img: business,
+        title: "Za zauzete biznismene/ke:",
+        txt: "Maksimizirajte svoje vreme sa efikasnim i uticajnim učenjem prilagođenim vašim poslovnim potrebama. Pripremite se za međunarodne konferencije, izdvojite se na globalnom tržištu i efikasno komunicirajte sa međunarodnim partnerima iz Vaše kancelarije ili doma.",
+      },
+    ],
+    choose: [
+      ["Fleksibilnost: Učite bilo kada i bilo gde."],
+      [
+        "Personalizacija: Kursevi prilagođeni Vašim ciljevima i interesovanjima.",
+      ],
+      [
+        "Efikasnost: Individualni časovi fokusirani na Vaše potrebe i napredak.",
+      ],
+      [
+        "Tehnologija: Platforma, laka za upotrebu i dostupna sa bilo kog uređaja.",
+      ],
+      ["Zajednica: Pridružite se zajednici koja ulaže u sebe."],
+    ],
+    blog: [
+      {
+        title: "Advantages of Online English Classes",
+        img: blogImg2,
+        txt: [
+          {
+            bold: "Flexibility: ",
+            paragraph:
+              "One of the most notable advantages is the flexibility of learning at your own pace and time. Whether you're balancing work, studies, or personal commitments, online classes adjust to your schedule, not the other way around.",
+          },
+          {
+            bold: "Comfort: ",
+            paragraph:
+              "Another significant advantage is the ability to learn from your own home. Forget about pushing in buses, delays, traffic jams, and the stress of finding a parking spot. Save time, energy, and money by learning from your bed, living room, or hotel while on vacation.",
+          },
+          {
+            bold: "Accessibility: ",
+            paragraph:
+              "Geography is no longer a barrier. With an internet connection, you have access to quality education in English from foreign teachers.",
+          },
+          {
+            bold: "Resource Diversity: ",
+            paragraph:
+              "Online platforms offer an abundance of materials—e-books, videos, podcasts, interactive quizzes—that cater to different learning styles, ensuring a holistic approach to language acquisition.",
+          },
+          {
+            bold: "Personalized Learning: ",
+            paragraph:
+              "Many online platforms offer a personalized learning experience, adjusting to your skill level and focusing on areas that require improvement.",
+          },
+          {
+            bold: "Cost Effectiveness: ",
+            paragraph:
+              "Online courses are often more affordable than traditional face-to-face classes, eliminating transportation and material costs.",
+          },
+          {
+            bold: "Environmental Protection: ",
+            paragraph:
+              "Since you don't travel by car or bus and books aren't printed, no exhaust gasses are emitted and no trees are cut down. Online English classes are a perfect solution for environmentally conscious people who want to improve their language skills.",
+          },
+        ],
+      },
+      {
+        title: "Disadvantages of Online English Classes",
+        img: blogImg3,
+        txt: [
+          {
+            bold: "Lack of In-Person Interaction: ",
+            paragraph:
+              "The absence of face-to-face communication can be a downside for those who thrive in traditional classrooms.",
+          },
+          {
+            bold: "Self-Discipline Required: ",
+            paragraph:
+              "Online learning requires a high level of self-motivation and discipline. Without it, keeping up with the course can become challenging.",
+          },
+          {
+            bold: "Technical Problems: ",
+            paragraph:
+              "Dependence on technology means that internet problems, power outages, or computer bugs can disrupt learning, leading to poor connection in class, interruptions, or even a missed class.",
+          },
+          {
+            bold: "Distractions: ",
+            paragraph:
+              "Since classes are attended from home or a similar environment, there is a possibility that parents, children, or pets might interrupt the class. A doorbell, lunch, or a game in another tab can also divert attention and disrupt concentration.",
+          },
+        ],
+      },
+      {
+        title: "How to Succeed in Online English Classes",
+        txt: [
+          {
+            bold: "Establish a Routine: ",
+            paragraph:
+              "Consistency is key. Set a regular schedule to maintain continuity in your learning.",
+          },
+          {
+            bold: "Actively Participate: ",
+            paragraph:
+              "Participate in forums, complete interactive exercises, and attend live sessions if available. Speak as much as possible during classes.",
+          },
+          {
+            bold: "Set Realistic Goals: ",
+            paragraph:
+              "Define clear, achievable goals to stay motivated and track your progress.",
+          },
+          {
+            bold: "Create a Conducive Learning Environment: ",
+            paragraph:
+              "Ensure you have a quiet, comfortable space dedicated to your studies.",
+          },
+          {
+            bold: "Leverage Technology: ",
+            paragraph:
+              "Use available tools and apps to enhance your learning experience. Apps like Duolingo or Babbel can be great for vocabulary building. Websites like BBC Learning English offer a range of materials tailored to different levels.",
+          },
+        ],
+      },
+      {
+        title: "Choosing the Right Online English Program",
+        txt: [
+          {
+            bold: "Accreditation: ",
+            paragraph:
+              "Check the credibility of the program. Accredited courses are more likely to be of quality and recognized by employers and educational institutions.",
+          },
+          {
+            bold: "Reviews and Testimonials: ",
+            paragraph:
+              "Feedback from past students can provide valuable insights into the effectiveness of the course.",
+          },
+          {
+            bold: "Course Structure: ",
+            paragraph:
+              "Ensure the curriculum aligns with your goals, whether you're learning English for travel, business, or academic purposes.",
+          },
+          {
+            bold: "Instructor Qualifications: ",
+            paragraph:
+              "Qualified, experienced instructors can significantly enhance your learning experience.",
+          },
+        ],
+      },
+    ],
+  },
 };
 
 export default data;
