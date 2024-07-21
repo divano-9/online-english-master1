@@ -340,6 +340,13 @@ nav .navbar-nav .nav-link:first-of-type {
   justify-content: space-around;
 }
 
+/*Pricing*/
+
+.pricing .container .price-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 /*Choose*/
 
 .choose {
