@@ -6,7 +6,9 @@ import blogImg2 from "../assets/blog/blog-img-2.png";
 import blogImg3 from "../assets/blog/blog-img-3.png";
 
 const data = {
+  //english
   eng: {
+    //english course data start
     course: [
       {
         id: 1,
@@ -33,6 +35,8 @@ const data = {
         txt: "Maximize your time with efficient, impactful learning tailored to your business needs. Prepare for international conferences, excel in global markets, and communicate effectively with international partners from your office or home.",
       },
     ],
+    //english course data end
+    //english choose data start
     choose: [
       ["Flexibility: Learn anytime, anywhere."],
       ["Personalization: Courses tailored to your goals and interests."],
@@ -40,7 +44,10 @@ const data = {
       ["Technology: User-friendly platform accessible from any device."],
       ["Community: Join a supportive community of learners."],
     ],
+    //english choose data end
+    //english blog data start
     blog: [
+      //english blog article
       {
         title: "Advantages of Online English Classes",
         img: blogImg2,
@@ -82,6 +89,7 @@ const data = {
           },
         ],
       },
+      //english blog article
       {
         title: "Disadvantages of Online English Classes",
         img: blogImg3,
@@ -108,6 +116,7 @@ const data = {
           },
         ],
       },
+      //english blog article
       {
         title: "How to Succeed in Online English Classes",
         txt: [
@@ -138,6 +147,7 @@ const data = {
           },
         ],
       },
+      //english blog article
       {
         title: "Choosing the Right Online English Program",
         txt: [
@@ -165,7 +175,9 @@ const data = {
       },
     ],
   },
+  //vietnamese
   viet: {
+    //viet course start
     course: [
       {
         id: 1,
@@ -192,6 +204,8 @@ const data = {
         txt: "Học sao cho vừa tiết kiệm thời gian tiền bạc lại vừa hiệu quả? Tại Master 1, bạn được chủ động chọn học những gì cần cho công việc và sắp xếp thời gian linh hoạt. Bạn có thể học ONLINE 1-1 cùng giáo viên nước ngoài để tự tin tham gia phỏng vấn, giao tiếp với đối tác nước ngoài, tham gia hội thảo toàn bằng Tiếng Anh.",
       },
     ],
+    //viet course end
+    //viet choose start
     choose: [
       ["Linh Hoạt: Học bất cứ lúc nào, bất cứ nơi đâu."],
       [
@@ -205,7 +219,10 @@ const data = {
         "Cộng Đồng: Master 1 xây dựng một cộng đồng người học cùng nhau trao đổi, giúp đỡ và phát triển.",
       ],
     ],
+    //viet choose end
+    //viet blog start
     blog: [
+      //viet blog article
       {
         title: "Lợi ích của Các Lớp Học Tiếng Anh Trực Tuyến",
         img: blogImg2,
@@ -247,6 +264,7 @@ const data = {
           },
         ],
       },
+      //viet blog article
       {
         title: "Nhược điểm của Các Lớp Học Tiếng Anh Trực Tuyến",
         img: blogImg3,
@@ -273,6 +291,7 @@ const data = {
           },
         ],
       },
+      //viet blog article
       {
         title: "Cách Thành Công trong Các Lớp Học Tiếng Anh Trực Tuyến",
         txt: [
@@ -303,6 +322,7 @@ const data = {
           },
         ],
       },
+      //viet blog article
       {
         title: "Chọn Chương Trình Học Tiếng Anh Trực Tuyến Phù Hợp",
         txt: [
@@ -329,8 +349,11 @@ const data = {
         ],
       },
     ],
+    //viet blog end
   },
+  //serbian
   srb: {
+    //serbian course start
     course: [
       {
         id: 1,
@@ -357,6 +380,8 @@ const data = {
         txt: "Maksimizirajte svoje vreme sa efikasnim i uticajnim učenjem prilagođenim vašim poslovnim potrebama. Pripremite se za međunarodne konferencije, izdvojite se na globalnom tržištu i efikasno komunicirajte sa međunarodnim partnerima iz Vaše kancelarije ili doma.",
       },
     ],
+    //serbian course end
+    //serbian choose start
     choose: [
       ["Fleksibilnost: Učite bilo kada i bilo gde."],
       [
@@ -370,130 +395,137 @@ const data = {
       ],
       ["Zajednica: Pridružite se zajednici koja ulaže u sebe."],
     ],
+    //serbian course end
+    //serbian blog start
     blog: [
+      //serbian blog article
       {
-        title: "Advantages of Online English Classes",
+        title: "Prednosti online časova engleskog jezika",
         img: blogImg2,
         txt: [
           {
-            bold: "Flexibility: ",
+            bold: "Fleksibilnost: ",
             paragraph:
-              "One of the most notable advantages is the flexibility of learning at your own pace and time. Whether you're balancing work, studies, or personal commitments, online classes adjust to your schedule, not the other way around.",
+              "Jedna od najistaknutijih prednosti je fleksibilnost učenja u sopstvenom tempu i vremenu. Bilo da balansirate između posla, studija ili ličnih obaveza, online časovi se prilagođavaju vašem rasporedu, a ne obrnuto.",
           },
           {
-            bold: "Comfort: ",
+            bold: "Komfor: ",
             paragraph:
-              "Another significant advantage is the ability to learn from your own home. Forget about pushing in buses, delays, traffic jams, and the stress of finding a parking spot. Save time, energy, and money by learning from your bed, living room, or hotel while on vacation.",
+              " Još jedna značajna prednost je mogućnost učenja iz sopstvenog doma. Zaboravite na guranja u busevima, kašnjenja, gužve u saobraćaju i gubljenje živaca dok tražite parking mesto. Štedite na vremenu, energiji, I novcu tako što učite iz vašeg kreveta, dnevne sobe, ili hotela dok ste na odmoru.",
           },
           {
-            bold: "Accessibility: ",
+            bold: "Pristupačnost: ",
             paragraph:
-              "Geography is no longer a barrier. With an internet connection, you have access to quality education in English from foreign teachers.",
+              "Geografija više nije prepreka. Sa internet konekcijom imate pristup kvalitetnom obrazovanju iz engleskog jezika od strane stranih nastavnika.",
           },
           {
-            bold: "Resource Diversity: ",
+            bold: "Raznovrsnost resursa: ",
             paragraph:
-              "Online platforms offer an abundance of materials—e-books, videos, podcasts, interactive quizzes—that cater to different learning styles, ensuring a holistic approach to language acquisition.",
+              "Online platforme nude obilje materijala—elektronske knjige, videozapisi, podcasti, interaktivni kvizovi—koji odgovaraju različitim stilovima učenja, obezbeđujući holistički pristup usvajanju jezika.",
           },
           {
-            bold: "Personalized Learning: ",
+            bold: "Personalizovano učenje: ",
             paragraph:
-              "Many online platforms offer a personalized learning experience, adjusting to your skill level and focusing on areas that require improvement.",
+              "Mnoge online platforme nude personalizovano iskustvo učenja, prilagođavajući se vašem nivou veštine i fokusirajući se na oblasti koje zahtevaju poboljšanje.",
           },
           {
-            bold: "Cost Effectiveness: ",
+            bold: "Cenovna dostupnost: ",
             paragraph:
-              "Online courses are often more affordable than traditional face-to-face classes, eliminating transportation and material costs.",
+              "Često su online kursevi povoljniji od tradicionalnih časova uživo, eliminišući troškove prevoza i materijala.",
           },
           {
-            bold: "Environmental Protection: ",
+            bold: "Zaštita životne sredine: ",
             paragraph:
-              "Since you don't travel by car or bus and books aren't printed, no exhaust gasses are emitted and no trees are cut down. Online English classes are a perfect solution for environmentally conscious people who want to improve their language skills.",
+              "S obzirom da se na časove ne ide automobilima ili autobusima, a knjige se ne štampaju, ne ispuštaju se izduvni gasovi I ne seku se drveća. Online časovi engleskog jezika su savršeno rešenje za ekološki savesne ljude koji žele da unaprede svoje jezičke sposobnosti.",
           },
         ],
       },
+      //serbian blog article
       {
-        title: "Disadvantages of Online English Classes",
+        title: "Nedostaci online časova engleskog jezika",
         img: blogImg3,
         txt: [
           {
-            bold: "Lack of In-Person Interaction: ",
+            bold: "Nedostatak interakcije uživo: ",
             paragraph:
-              "The absence of face-to-face communication can be a downside for those who thrive in traditional classrooms.",
+              "Odsustvo komunikacije licem u lice može biti minus za one koji najbolje napreduju u tradicionalnim učionicama.",
           },
           {
-            bold: "Self-Discipline Required: ",
+            bold: "Potrebna samodisciplina: ",
             paragraph:
-              "Online learning requires a high level of self-motivation and discipline. Without it, keeping up with the course can become challenging.",
+              "Online učenje zahteva visok nivo samomotivacije i discipline. Bez toga, praćenje kursa može postati izazovno.",
           },
           {
-            bold: "Technical Problems: ",
+            bold: "Tehnički problemi: ",
             paragraph:
-              "Dependence on technology means that internet problems, power outages, or computer bugs can disrupt learning, leading to poor connection in class, interruptions, or even a missed class.",
+              "Zavisnost od tehnologije znači da problemi sa Internetom, nestanak struje ili bagovi na kompjuteru mogu ometati učenje, dovesti do loše konekcije na času, smetnji, pa I propuštenog časa.",
           },
           {
-            bold: "Distractions: ",
+            bold: "Distrakcije: ",
             paragraph:
-              "Since classes are attended from home or a similar environment, there is a possibility that parents, children, or pets might interrupt the class. A doorbell, lunch, or a game in another tab can also divert attention and disrupt concentration.",
-          },
-        ],
-      },
-      {
-        title: "How to Succeed in Online English Classes",
-        txt: [
-          {
-            bold: "Establish a Routine: ",
-            paragraph:
-              "Consistency is key. Set a regular schedule to maintain continuity in your learning.",
-          },
-          {
-            bold: "Actively Participate: ",
-            paragraph:
-              "Participate in forums, complete interactive exercises, and attend live sessions if available. Speak as much as possible during classes.",
-          },
-          {
-            bold: "Set Realistic Goals: ",
-            paragraph:
-              "Define clear, achievable goals to stay motivated and track your progress.",
-          },
-          {
-            bold: "Create a Conducive Learning Environment: ",
-            paragraph:
-              "Ensure you have a quiet, comfortable space dedicated to your studies.",
-          },
-          {
-            bold: "Leverage Technology: ",
-            paragraph:
-              "Use available tools and apps to enhance your learning experience. Apps like Duolingo or Babbel can be great for vocabulary building. Websites like BBC Learning English offer a range of materials tailored to different levels.",
+              "S obzirom da se časovima prisustvuje od kuće ili sličnog okruženja postoji mogućnost da roditelji, deca, ili kućni ljubimci prekinu čas. Zvono na vratima, ručak, ili igrica u drugom tabu mogu takođe skrenuti pažnju I porušiti koncentraciju.",
           },
         ],
       },
+      //serbian blog article
       {
-        title: "Choosing the Right Online English Program",
+        title: "Kako uspeti na online časovima engleskog jezika",
         txt: [
           {
-            bold: "Accreditation: ",
+            bold: "Uspostavite rutinu: ",
             paragraph:
-              "Check the credibility of the program. Accredited courses are more likely to be of quality and recognized by employers and educational institutions.",
+              "Konzistentnost je ključna. Postavite redovan raspored kako biste održali kontinuitet učenja.",
           },
           {
-            bold: "Reviews and Testimonials: ",
+            bold: "Aktivno učestvujte: ",
             paragraph:
-              "Feedback from past students can provide valuable insights into the effectiveness of the course.",
+              "Učestvujte u forumima, završite interaktivne vežbe i prisustvujte uživo sesijama ako su dostupne. Pričajte na časovima što više.",
           },
           {
-            bold: "Course Structure: ",
+            bold: "Postavite realistične ciljeve: ",
             paragraph:
-              "Ensure the curriculum aligns with your goals, whether you're learning English for travel, business, or academic purposes.",
+              "Definišite jasne, ostvarive ciljeve da ostanete motivisani i pratite svoj napredak.",
           },
           {
-            bold: "Instructor Qualifications: ",
+            bold: "Kreirajte pogodno okruženje za učenje: ",
             paragraph:
-              "Qualified, experienced instructors can significantly enhance your learning experience.",
+              "Osigurajte da imate tih, udoban prostor posvećen vašem učenju.",
+          },
+          {
+            bold: "Iskoristite tehnologiju: ",
+            paragraph:
+              "Iskoristite dostupne alate i aplikacije kako biste poboljšali svoje iskustvo učenja. Aplikacije poput Duolingo I Babbel su odlične za sticanje vokabulara. Vebsite poput BBC Learning English nudi širok spektar materijala primeren za različite nivoe.",
+          },
+        ],
+      },
+      //serbian blog article
+      {
+        title: "Biranje pravog online programa za engleski jezik",
+        txt: [
+          {
+            bold: "Akreditacija: ",
+            paragraph:
+              "Proverite verodostojnost programa. Akreditovani kursevi su verovatnije kvalitetni i priznati od strane poslodavaca i obrazovnih institucija.",
+          },
+          {
+            bold: "Recenzije i svedočanstva: ",
+            paragraph:
+              "Povratne informacije od prethodnih studenata mogu pružiti dragocene uvide u efikasnost kursa.",
+          },
+          {
+            bold: "Struktura kursa: ",
+            paragraph:
+              "Osigurajte da se kurikulum poklapa sa vašim ciljevima, bilo da učite engleski za putovanja, posao ili akademske svrhe.",
+          },
+          {
+            bold: "Kvalifikacije instruktora: ",
+            paragraph:
+              "Kvalifikovani, iskusni instruktori mogu znatno poboljšati vaše iskustvo učenja.",
           },
         ],
       },
     ],
+    //serbian blog end
   },
 };
 

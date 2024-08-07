@@ -68,6 +68,9 @@ const Navigation = () => {
                 <Link to={"/#contact"} className="nav-link">
                   Contact
                 </Link>
+                <Link to={"/qa"} className="nav-link">
+                  Q/A
+                </Link>
 
                 <div className="qr">
                   <Zoom>

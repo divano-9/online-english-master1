@@ -36,6 +36,22 @@ const Blog = () => {
                 proficiency.
               </p>
             </div>
+          ) : language === "srb" ? (
+            <div className="srb">
+              <h1>
+                Vodič za online časove engleskog jezika: Sve što trebate znati
+              </h1>
+              <p>
+                Savremeni svet, koji karakteriše globalizacija, primena modernih
+                tehnologija i stalna potreba za prikupljanjem informacija,
+                engleski jezik pojavljuje se kao ključno sredstvo za
+                komunikaciju, obrazovanje i poslovanje. Napredak tehnologije
+                revolucionizovao je učenje, čineći engleski jezik dostupnijim
+                nego ikad kroz online časove. Ovaj sveobuhvatan vodič zalazi u
+                suštinu online učenja engleskog jezika, pomažući vam da
+                upravljate vašim putem ka jezičkoj spretnosti.
+              </p>
+            </div>
           ) : (
             <div className="viet">
               <h1>
@@ -62,6 +78,33 @@ const Blog = () => {
           </div>
           {language === "eng"
             ? data.eng.blog.map((post, index) => {
+                const { title, txt, img } = post;
+                console.log(txt);
+                return (
+                  <article key={index}>
+                    <h2>{title}</h2>
+                    {txt &&
+                      txt.map((single, index) => {
+                        const { bold, paragraph } = single;
+                        return (
+                          <p key={index + "a"}>
+                            <b>{bold}</b>
+                            {paragraph}
+                          </p>
+                        );
+                      })}
+                    {img && (
+                      <div className="row">
+                        <div className="img-container col-10 col-lg-7">
+                          <img src={img} alt="blog image" loading="lazy" />
+                        </div>
+                      </div>
+                    )}
+                  </article>
+                );
+              })
+            : language === "srb"
+            ? data.srb.blog.map((post, index) => {
                 const { title, txt, img } = post;
                 console.log(txt);
                 return (
@@ -133,6 +176,26 @@ const Blog = () => {
                 just a click away—dive in and discover the power of language.
                 Sign up for a free trial class here.
               </p>
+            </div>
+          ) : language === "srb" ? (
+            <div className="srb">
+              <h2>Prihvatanje budućnosti učenja</h2>
+              <p>
+                Online časovi engleskog jezika predstavljaju značajan korak ka
+                demokratizaciji obrazovanja, nudeći učenicima širom sveta
+                priliku da ovladaju ključnim globalnim jezikom. Iako postoje
+                izazovi, prednosti su značajne, pružajući učenicima fleksibilnu,
+                pristupačnu i sveobuhvatnu platformu za poboljšanje njihove
+                veštine engleskog jezika.
+              </p>
+              <p>
+                Spremni da podignete svoje znanje engleskog jezika na viši nivo?
+                Prihvatite fleksibilnost, pogodnost i efikasnost online učenja.
+                Počnite svoje putovanje danas i otključajte vrata globalnih
+                mogućnosti. Vaš put ka ovladavanju engleskim jezikom je samo
+                klik daleko—zaronite i otkrijte moć jezika.
+              </p>
+              <p>Prijavite se za besplatan probni čas ovde.</p>
             </div>
           ) : (
             <div className="viet">

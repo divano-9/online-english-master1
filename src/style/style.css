@@ -54,7 +54,8 @@ hr {
   margin-top: 5rem;
 }
 
-p {
+p,
+li {
   font-size: 2.5rem;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -547,4 +548,40 @@ nav .navbar-nav .nav-link:first-of-type {
 .blog h2,
 .blog p {
   padding: 0 2rem;
+}
+
+/*QA*/
+
+.qa h1 {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
+.qa h3 {
+  margin: 5rem 0;
+}
+
+.qa ul {
+  margin-bottom: 2rem;
+}
+
+.qa .imgs {
+  min-height: 70px;
+  margin: 7rem 0;
+}
+
+.qa .img-container img {
+  width: auto;
+  height: auto;
+}
+
+.qa .img-left {
+  float: left;
+}
+
+.qa .img-right {
+  float: right;
 }

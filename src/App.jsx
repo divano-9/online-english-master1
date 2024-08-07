@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import ScrollToAnchor from "./utils/ScrollToAnchor";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
+import QA from "./pages/QA";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="qa" element={<QA />} />
         </Routes>
         <ScrollToAnchor />
       </Router>
