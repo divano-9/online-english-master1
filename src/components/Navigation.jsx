@@ -37,6 +37,7 @@ const Navigation = () => {
     if (languages[0] == "sr") {
       setLanguage("srb");
     }
+    window.scrollTo(0, 0);
   }, []);
 
   return (
