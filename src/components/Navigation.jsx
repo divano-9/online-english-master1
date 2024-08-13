@@ -42,7 +42,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <div className={show ? "follow fix purple-bg" : "follow"}>
-        <Navbar expand="lg">
+        <Navbar collapseOnSelect expand="lg">
           <Container>
             <Navbar.Brand>
               <Link to={"/#home"} className="navbar-brand"></Link>
@@ -53,24 +53,54 @@ const Navigation = () => {
               className="justify-content-end"
             >
               <Nav>
-                <Link to={"/#home"} className="nav-link">
+                <Nav.Link
+                  as={Link}
+                  to={"/#home"}
+                  className="nav-link"
+                  eventKey="1"
+                >
                   Home
-                </Link>
-                <Link to={"/blog"} className="nav-link">
+                </Nav.Link>
+                <Nav.Link
+                  as={Link}
+                  to={"/blog"}
+                  className="nav-link"
+                  eventKey="2"
+                >
                   Blog
-                </Link>
-                <Link to={"/#courses"} className="nav-link">
+                </Nav.Link>
+                <Nav.Link
+                  as={Link}
+                  to={"/#courses"}
+                  className="nav-link"
+                  eventKey="3"
+                >
                   Courses
-                </Link>
-                <Link to={"/#pricing"} className="nav-link">
+                </Nav.Link>
+                <Nav.Link
+                  as={Link}
+                  to={"/#pricing"}
+                  className="nav-link"
+                  eventKey="4"
+                >
                   Pricing
-                </Link>
-                <Link to={"/#contact"} className="nav-link">
+                </Nav.Link>
+                <Nav.Link
+                  as={Link}
+                  to={"/#contact"}
+                  className="nav-link"
+                  eventKey="5"
+                >
                   Contact
-                </Link>
-                <Link to={"/qa"} className="nav-link">
+                </Nav.Link>
+                <Nav.Link
+                  as={Link}
+                  to={"/qa"}
+                  className="nav-link"
+                  eventKey="6"
+                >
                   Q/A
-                </Link>
+                </Nav.Link>
 
                 <div className="qr">
                   <Zoom>
