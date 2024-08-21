@@ -30,13 +30,14 @@ const Navigation = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", controlNavbar);
-    console.log("languages: ", languages);
+
     if (languages[0] == "vi") {
       setLanguage("viet");
     }
     if (languages[0] == "sr") {
       setLanguage("srb");
     }
+
     window.scrollTo(0, 0);
   }, []);
 
@@ -134,6 +135,13 @@ const Navigation = () => {
                 <div className="btn-container">
                   <button className="contact-btn">
                     <Link to="/#contact">Sign Up</Link>
+                  </button>
+                </div>
+                <div className="btn-container">
+                  <button className="contact-btn sign-in">
+                    <Link to="https://master1.live-online-classes.com">
+                      Sign In
+                    </Link>
                   </button>
                 </div>
               </Nav>

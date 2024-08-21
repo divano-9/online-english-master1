@@ -165,6 +165,10 @@
     height: 6rem;
     width: auto;
   }
+
+  .btn-container {
+    padding-top: 0;
+  }
 }
 
 @media (min-width: 1200px) {

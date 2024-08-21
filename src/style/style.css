@@ -116,6 +116,15 @@ img {
 .btn-container {
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
+}
+
+.sign-in {
+  background-color: rgb(65, 199, 125);
+}
+
+.sign-in:hover {
+  background-color: rgb(68, 230, 141);
 }
 
 .fix {
