@@ -41,6 +41,12 @@ const Hero = () => {
           <img src={bgV} className="bg-img" />
         )}
       </div>
+      <div className="hero-btn-container">
+        <button className="contact-btn">
+          <Link to="/#contact">Sign Up</Link>
+        </button>
+      </div>
+
       <div>
         <img src={bot} className="bot-img" />
       </div>

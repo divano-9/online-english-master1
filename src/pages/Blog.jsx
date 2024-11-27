@@ -79,7 +79,7 @@ const Blog = () => {
           {language === "eng"
             ? data.eng.blog.map((post, index) => {
                 const { title, txt, img } = post;
-                console.log(txt);
+
                 return (
                   <article key={index}>
                     <h2>{title}</h2>
@@ -106,7 +106,7 @@ const Blog = () => {
             : language === "srb"
             ? data.srb.blog.map((post, index) => {
                 const { title, txt, img } = post;
-                console.log(txt);
+
                 return (
                   <article key={index}>
                     <h2>{title}</h2>
@@ -132,7 +132,7 @@ const Blog = () => {
               })
             : data.viet.blog.map((post, index) => {
                 const { title, txt, img } = post;
-                console.log(txt);
+
                 return (
                   <article key={index}>
                     <h2>{title}</h2>
