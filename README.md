@@ -1,8 +1,31 @@
-# React + Vite
+# MASTER 1 Online English Classes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<a href="https://master1oec.com/">
+MASTER 1 Website Link
+</a>
 
-Currently, two official plugins are available:
+<br>
+This is a Website for online english classes, new features are periodically added as per client request.<br>
+<br>
+Languages used in making of the website:
+<br>
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML
+- CSS
+- JavaScript
+- React
+
+## Website features:
+
+- Hero page with custom illustration
+- Full English, Vietnamese and Serbian language support
+- Prices, courses description, contact ...
+- Promotional and students reviews videos
+- Blog and Q/A pages
+
+## Screenshots
+
+<img src="screenshots/master1-screenshot-1.png">
+<img src="screenshots/master1-screenshot-2.png">
+<img src="screenshots/master1-screenshot-3.png">
